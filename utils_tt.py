@@ -211,6 +211,7 @@ def read_json_file(json_file):
                 mc_data = block_data['MappingChange']
                 mapping_change_fn = mc_data.get('Tones_fn')
 
+
             # Si ni 'playback' ni 'tracking' ne sont présents, prendre 'Type' et 'Tones_fn'
             if not playback_tones_fn and not tracking_tones_fn and not mapping_change_fn:
                 block_type = block_data.get('Type')
@@ -509,6 +510,27 @@ def save_tt(tones, triggers,block, condition, mock_triggers, mock_tones, path):
         pickle.dump(tt, file)
 
 
+def creer_tableau_blocs(A):
+    # Initialiser un tableau pour stocker les numéros de blocs
+    blocs = np.zeros_like(A, dtype=int)  # Un tableau de la même taille que A, rempli de zéros
+    bloc_courant = 0  # Compteur du bloc
+    
+    # Parcourir le tableau A
+    for i in range(1, len(A)):
+        # Si on passe de 0 à une valeur non-nulle, on démarre un nouveau bloc
+        if A[i-1] != 0 and A[i] == 0 and A[i+1] == 0:
+            print(A[i-1], A[i], A[i+1])
+            bloc_courant += 1  # Nouveau bloc trouvé
+
+        # Affecter le numéro du bloc courant aux éléments non-nuls
+        if A[i] != 0:
+            blocs[i] = bloc_courant
+        else:
+            blocs[i] = bloc_courant  # Les zéros appartiennent à aucun bloc (ou bloc zéro)
+    
+    return blocs
+
+
 def create_tt(path) : 
     # Fonction pour créer le tt.pkl dans le cas d'une session playback classique (avec les mock )
     
@@ -596,13 +618,13 @@ def create_tt_mc(path) :
     sorted_triggers = trig_times[sorted_indices]
     sorted_tones = tones[sorted_indices]
     sorted_condition = condition[sorted_indices]
-    
+    block = creer_tableau_blocs(sorted_condition)
     # we have triggers now let's get the tones
-    json_path = find_json(path)
-    extracted_data = read_json_file(json_path)
-    tones, labels, mock_tones = concatenate_tones_and_labels(extracted_data, path+'headstage_0/tones')
-    condition, block = convert_condition_block(tones, labels)
-    save_tt(tones, trig_times,block, condition, None, None, path+'headstage_0')
+    #json_path = find_json(path)
+    #extracted_data = read_json_file(json_path)
+    #tones, labels, mock_tones = concatenate_tones_and_labels(extracted_data, path+'headstage_0/tones')
+    #condition, block = convert_condition_block(tones, labels)
+    save_tt(sorted_tones, sorted_triggers,block, sorted_condition, None, None, path+'headstage_0')
     
     
     
