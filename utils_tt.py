@@ -846,6 +846,223 @@ def create_data_features_mock(path, bin_width, fs, mock=True):
         
 
 
+def create_data_features_ss(path, bin_width, fs, mock=False):
+
+    # version si spike_sorting c'est une version test
+    
+    #data = pd.read_hdf(path+'/data.h5')
+    
+    #file = path+'/recording_length.bin'
+    #with open(file, 'rb') as file:
+       # recording_length = file.read()
+    #recording_length = recording_length.decode('utf-8')
+
+    # Extract only the numbers using a simple filter
+   # recording_length = int(''.join(filter(str.isdigit, recording_length)))
+
+    #print(recording_length)
+    #extraire recording_length OK ca marche
+
+ 
+    spk_clusters = np.load(path+'/ss_spike_clusters.npy', allow_pickle=True)
+    spk_times = np.load(path+'/ss_spike_times.npy', allow_pickle=True)
+
+    clusters = {}
+    for value, cluster in zip(spk_times, spk_clusters):
+        if cluster not in clusters:
+            clusters[cluster] = []
+        clusters[cluster].append(value)
+
+    ##NEURO
+    t_spk, c_spk = [], [] #spike times, cluster
+    #for cluster in range(spike.get_n_clusters()):
+    n_clus = np.max(spk_clusters)
+    for cluster in range(n_clus+1):
+        t_spk.append(clusters[cluster]) #spikes times
+        c_spk.append(np.full_like(t_spk[cluster], cluster))
+    t_spk = np.hstack(t_spk)
+    c_spk = np.hstack(c_spk)
+
+    # mettre en secondes 
+    t_spk = t_spk/1000 # attention ce qui sort de wave_clus c'est en ms
+    c_spk = c_spk
+
+
+    ## faire les bins : 
+    min_value = t_spk.min()  # Get the minimum value of 'spike_time'
+    max_value = t_spk.max()  # Get the maximum value of 'spike_time'
+
+    bins = np.arange(min_value, max_value + bin_width, bin_width)  # Define custom bin edges
+
+    ## histogramme par cluster
+    unique_clusters = np.unique(c_spk)
+
+    histograms_per_cluster = {}
+
+    for cluster in unique_clusters:
+        spike_times_cluster = [time for time, clus in zip(t_spk, c_spk) if clus == cluster]
+        # Now spike_times_cluster contains spike times for the current cluster
+        
+        # Perform histogram for the current cluster
+        hist, bin_edges = np.histogram(spike_times_cluster, bins=bins)
+        histograms_per_cluster[cluster] = (hist, bin_edges)
+
+    print(histograms_per_cluster)
+    data = [histograms_per_cluster[key][0] for key in histograms_per_cluster]
+    np.save(path+f'/data_{bin_width}.npy', data)
+
+
+    #### TRIGGERS
+    tt_path = path+'/tt.pkl'
+    with open(tt_path, 'rb') as file:
+        tt = pickle.load(file)
+        
+    #sorted_indices = np.argsort(tt['triggers'])
+    #sorted_triggers = tt['triggers'][sorted_indices]
+    #sorted_tones = tt['tones'][sorted_indices]
+    #sorted_condition = tt['condition'][sorted_indices]
+    
+    t_stim = np.array(tt['triggers'])/fs
+    f_stim = tt['tones']
+    type_stim = tt['condition']
+    block = [int(block[-1]) for block in tt['block']]
+    if mock:
+        t_mock = np.array(tt['mock_triggers'])/fs
+        f_mock = tt['mock_tones'] 
+    
+    #attention
+    t_stim = np.array(t_stim, dtype=float)
+    type_stim = np.array(type_stim, dtype=float)
+    block = np.array(block, dtype=float)
+    if mock : 
+        t_mock = np.array(t_mock, dtype=float)
+    
+    
+    
+    unique_tones = sorted(np.unique(f_stim))
+    
+    print(f"Shape of t_stim: {t_stim.shape}")
+    print(f"Shape of f_stim: {f_stim.shape}")
+    print(f"Shape of bins: {bins.shape}")
+    
+    # Attention on a envie que t_stim et f_stim soient de la même longueur
+    if len(t_stim)>len(f_stim):
+        t_stim = t_stim[:len(f_stim)]
+        type_stim = type_stim[:len(f_stim)]
+        block = block[:len(f_stim)]
+        type_stim = type_stim[:len(f_stim)]
+        print(f" ATTENTION Shape of t_stim: {t_stim.shape}")
+        print(f"ATTENTION Shape of f_stim: {f_stim.shape}")
+    elif len(f_stim)>len(t_stim):
+        f_stim = f_stim[:len(t_stim)]
+        type_stim = type_stim[:len(t_stim)]
+        block = block[:len(t_stim)]
+        type_stim = type_stim[:len(t_stim)]
+        
+        print(f" ATTENTION Shape of t_stim: {t_stim.shape}")
+        print(f"ATTENTION Shape of f_stim: {f_stim.shape}")
+
+
+    #need to interpolate between two stims to get the frequency in between
+    # 1. True stims
+    stimulus_presence = np.zeros(len(bins) - 1, dtype=bool)
+    interpolated_freq = np.zeros(len(bins) - 1)
+
+    previous_frequency = None
+    for i in range(len(bins) - 1):
+        bin_start = bins[i]
+        bin_end = bins[i + 1]
+
+        # Check if any stimuli fall within the current bin
+        stimuli_in_bin = (t_stim >= bin_start) & (t_stim < bin_end)
+        
+        print(f"stimuli_in_bin indices: {np.where(stimuli_in_bin)}")
+        print(f"f_stim values in bin {i}: {f_stim[stimuli_in_bin]}")
+        if np.any(stimuli_in_bin):
+            # If stimuli are present, set stimulus_presence to True for this bin
+            stimulus_presence[i] = True
+
+            # Calculate the frequency associated with the bin (assuming frequency remains constant within the bin)
+            # You can simply take the frequency of the first stimulus within the bin
+            interpolated_freq[i] = f_stim[stimuli_in_bin][0]
+            previous_frequency = interpolated_freq[i]  # Update previous frequency
+        else:
+            # If no stimulus in the bin, set bin_frequencies to the previous frequency
+            if previous_frequency is not None:
+                interpolated_freq[i] = previous_frequency
+                
+    interpolated_type_stim = np.interp(bins, t_stim, type_stim)
+    interpolated_block_stim = np.interp(bins, t_stim, block)
+    
+    
+      # 2. Mock stims
+    if mock:
+        mock_stimulus_presence = np.zeros(len(bins) - 1, dtype=bool)
+        interpolated_mock_freq = np.zeros(len(bins) - 1)
+
+        previous_frequency = None
+        for i in range(len(bins) - 1):
+            bin_start = bins[i]
+            bin_end = bins[i + 1]
+
+            # Check if any stimuli fall within the current bin
+            mock_in_bin = (t_mock >= bin_start) & (t_mock < bin_end)
+            
+            print(f"stimuli_in_bin indices: {np.where(mock_in_bin)}")
+            print(f"f_stim values in bin {i}: {f_mock[mock_in_bin]}")
+            if np.any(mock_in_bin):
+                # If stimuli are present, set stimulus_presence to True for this bin
+                mock_stimulus_presence[i] = True
+
+                # Calculate the frequency associated with the bin (assuming frequency remains constant within the bin)
+                # You can simply take the frequency of the first stimulus within the bin
+                interpolated_mock_freq[i] = f_mock[mock_in_bin][0]
+                previous_frequency = interpolated_mock_freq[i]  # Update previous frequency
+            else:
+                # If no stimulus in the bin, set bin_frequencies to the previous frequency
+                if previous_frequency is not None:
+                    interpolated_mock_freq[i] = previous_frequency
+
+
+
+        # Create a dictionary to store information for each time bin
+        features = {}
+        for i, bin in enumerate(bins[:-1]):
+            features[bin] = {
+                'Played_frequency': interpolated_freq[i],
+                'Condition': interpolated_type_stim[i],
+                'Block' : interpolated_block_stim[i],
+                'Frequency_changes': stimulus_presence[i],
+                'Mock_frequency': interpolated_mock_freq[i],
+                'Mock_change' : mock_stimulus_presence[i]
+                
+            }
+    else:
+        features = {}
+        for i, bin in enumerate(bins[:-1]):
+            features[bin] = {
+                'Played_frequency': interpolated_freq[i],
+                'Condition': interpolated_type_stim[i],
+                'Block' : interpolated_block_stim[i],
+                'Frequency_changes': stimulus_presence[i]
+            }      
+        
+        
+        
+    features = list(features.values())
+    np.save(path+f'/features_{bin_width}.npy', features)
+    
+    np.save(path+'/unique_tones.npy', unique_tones)
+
+    #with open(path+'/features.json', 'w') as json_file:
+        #json.dump(features, json_file)   
+        
+    print(f"Shape of t_stim: {t_stim.shape}")
+    print(f"Shape of f_stim: {f_stim.shape}")
+    print(f"Shape of bins: {bins.shape}")
+    print('all izz well')
+        
+
 
 
 # OLD VERSIONS

@@ -21,7 +21,7 @@ matplotlib.use('Agg')
 sr=30e3
 # adresse pour OSCYPEK : /mnt/working2/felicie/data2/eTheremin/OSCYPEK/OSCYPEK
 
-root = '/auto/data2/eTheremin/ALTAI/ALTAI_20240823_SESSION_01/'
+root = '/auto/data2/eTheremin/OSCYPEK/OSCYPEK/OSCYPEK_20240710_SESSION_00/'
 path = root+'headstage_0/' 
 #path=root
 #neural_data = np.load(root +'/neural_data.npy')
