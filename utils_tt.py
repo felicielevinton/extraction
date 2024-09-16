@@ -716,7 +716,8 @@ def create_data_features_mock(path, bin_width, fs, mock=True):
     t_stim = np.array(t_stim, dtype=float)
     type_stim = np.array(type_stim, dtype=float)
     block = np.array(block, dtype=float)
-    t_mock = np.array(t_mock, dtype=float)
+    if mock : 
+        t_mock = np.array(t_mock, dtype=float)
     
     
     
