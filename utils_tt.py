@@ -512,9 +512,9 @@ def save_tt(tones, triggers,block, condition, mock_triggers, mock_tones, path):
 
 def creer_tableau_blocs(A):
     # Initialiser un tableau pour stocker les numéros de blocs
-    blocs = np.zeros_like(A, dtype=int)  # Un tableau de la même taille que A, rempli de zéros
+    blocs = np.zeros_like(A, dtype=object)  # Un tableau de la même taille que A, rempli de zéros
     bloc_courant = 0  # Compteur du bloc
-    
+    blocs[0] = 'block_0'
     # Parcourir le tableau A
     for i in range(1, len(A)):
         # Si on passe de 0 à une valeur non-nulle, on démarre un nouveau bloc
@@ -524,9 +524,9 @@ def creer_tableau_blocs(A):
 
         # Affecter le numéro du bloc courant aux éléments non-nuls
         if A[i] != 0:
-            blocs[i] = bloc_courant
+            blocs[i] = f'block_{bloc_courant}'
         else:
-            blocs[i] = bloc_courant  # Les zéros appartiennent à aucun bloc (ou bloc zéro)
+            blocs[i] = f'block_{bloc_courant}'  # Les zéros appartiennent à aucun bloc (ou bloc zéro)
     
     return blocs
 
@@ -708,8 +708,9 @@ def create_data_features_mock(path, bin_width, fs, mock=True):
     f_stim = tt['tones']
     type_stim = tt['condition']
     block = [int(block[-1]) for block in tt['block']]
-    t_mock = np.array(tt['mock_triggers'])/fs
-    f_mock = tt['mock_tones'] 
+    if mock:
+        t_mock = np.array(tt['mock_triggers'])/fs
+        f_mock = tt['mock_tones'] 
     
     #attention
     t_stim = np.array(t_stim, dtype=float)
