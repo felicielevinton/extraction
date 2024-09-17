@@ -846,7 +846,8 @@ def create_data_features_mock(path, bin_width, fs, mock=True):
         
 
 
-def create_data_features_ss(path, bin_width, fs, mock=False):
+def create_data_features_ss(path, clus, bin_width, fs, mock=False):
+    # clus : numero du cluster spike sorté
 
     # version si spike_sorting c'est une version test
     
@@ -909,7 +910,7 @@ def create_data_features_ss(path, bin_width, fs, mock=False):
 
     print(histograms_per_cluster)
     data = [histograms_per_cluster[key][0] for key in histograms_per_cluster]
-    np.save(path+f'/data_{bin_width}.npy', data)
+    np.save(path+f'/data_cluster_{clus}_{bin_width}.npy', data)
 
 
     #### TRIGGERS
