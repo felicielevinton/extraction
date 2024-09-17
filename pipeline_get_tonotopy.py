@@ -35,10 +35,10 @@ bin_width = 0.005
 psth_bins = np.arange(-t_pre, t_post + bin_width, bin_width)
 max_freq = 3
 min_freq=1 #3 for A1
-threshold = 3.2 #threshold for contour detection 3.2 is good
+threshold = 3 #3.2 #threshold for contour detection 3.2 is good
 
 print(bin_width)
-path = '/auto/data2/eTheremin/OSCYPEK/OSCYPEK/OSCYPEK_20240710_SESSION_00/headstage_0'
+path = '/auto/data2/eTheremin/ALTAI/ALTAI_20240809_SESSION_00/headstage_0'
 
 data = np.load(path+f'/data_{bin_width}.npy', allow_pickle=True)
 features = np.load(path+f'/features_{bin_width}.npy', allow_pickle=True)
@@ -53,4 +53,4 @@ unique_tones = sorted(np.unique(tones))
 #récupérer les heatmaps
 heatmaps = get_tonotopy(data, features, t_pre, t_post, bin_width, gc, unique_tones, max_freq, min_freq, 'playback', 'heatmaps')
 
-plot_heatmap_bandwidth(heatmaps,thresho ld, gc,unique_tones, min_freq, max_freq, bin_width, psth_bins, t_pre,path, '', 'playback')
+plot_heatmap_bandwidth(heatmaps,threshold, gc,unique_tones, min_freq, max_freq, bin_width, psth_bins, t_pre,path, '', 'playback')
