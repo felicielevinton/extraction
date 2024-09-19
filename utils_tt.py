@@ -865,8 +865,8 @@ def create_data_features_ss(path, clus, bin_width, fs, mock=False):
     #extraire recording_length OK ca marche
 
  
-    spk_clusters = np.load(path+'/ss_spike_clusters.npy', allow_pickle=True)
-    spk_times = np.load(path+'/ss_spike_times.npy', allow_pickle=True)
+    spk_clusters = np.load(path+'/spike_sorting/ss_C' + str(clus) + '_spike_clusters.npy', allow_pickle=True)
+    spk_times = np.load(path+'/spike_sorting/ss_C' + str(clus) + '_spike_times.npy', allow_pickle=True)
 
     clusters = {}
     for value, cluster in zip(spk_times, spk_clusters):
@@ -877,10 +877,12 @@ def create_data_features_ss(path, clus, bin_width, fs, mock=False):
     ##NEURO
     t_spk, c_spk = [], [] #spike times, cluster
     #for cluster in range(spike.get_n_clusters()):
-    n_clus = np.max(spk_clusters)
-    for cluster in range(n_clus+1):
+    #n_clus = len(np.unique(spk_clusters))
+    n_0 = 0
+    for cluster in np.unique(spk_clusters):
         t_spk.append(clusters[cluster]) #spikes times
-        c_spk.append(np.full_like(t_spk[cluster], cluster))
+        c_spk.append(np.full_like(t_spk[n_0], cluster))
+        n_0 = n_0 +1
     t_spk = np.hstack(t_spk)
     c_spk = np.hstack(c_spk)
 
@@ -910,7 +912,7 @@ def create_data_features_ss(path, clus, bin_width, fs, mock=False):
 
     print(histograms_per_cluster)
     data = [histograms_per_cluster[key][0] for key in histograms_per_cluster]
-    np.save(path+f'/data_cluster_{clus}_{bin_width}.npy', data)
+    np.save(path+f'/spike_sorting/data_ss_channel_{clus}_{bin_width}.npy', data)
 
 
     #### TRIGGERS
