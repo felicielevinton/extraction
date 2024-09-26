@@ -90,7 +90,7 @@ def check_responsiveness(triggers, spikes, path, clusters=None, tag=None):
 
 
 #### ici ca commence 
-path = '/auto/data2/eTheremin/ALTAI/ALTAI_20240806_SESSION_00/headstage_0/'
+path = '/auto/data2/eTheremin/ALTAI/ALTAI_20240809_SESSION_00/headstage_0/'
 
 
 
