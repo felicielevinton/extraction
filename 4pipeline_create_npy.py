@@ -8,9 +8,9 @@ sr = 30e3
 t_pre = 0.2#0.2
 t_post = 0.50#0.300
 bin_width = 0.005
-psth_bins = np.arange(-t_pre, t_post + bin_width, bin_width)
+psth_bins = np.arange(-t_pre, t_post + bin_width, bin_width)  
 
-path = '/auto/data2/eTheremin/OSCYPEK/OSCYPEK/OSCYPEK_20240710_SESSION_00/'
+path = '/auto/data2/eTheremin/ALTAI/ALTAI_20240806_SESSION_00/'
 mock=False
 #session_type = get_session_type_final(path)
 #print(session_type)

@@ -1260,6 +1260,7 @@ def get_data(folder, trigs, tonotopy_only=False, tracking_only=False):
     for file in glob.glob(os.path.join(folder+'/tones', "tones_*.bin")):
         tonotopy_seq = np.hstack((tonotopy_seq, np.fromfile(file, dtype=np.double)))
     for file in glob.glob(os.path.join(folder, "tracking_*.bin")):
+        print(folder)
         tracking_seq = np.hstack((tracking_seq, np.fromfile(file, dtype=np.double)))
         print(tracking_seq)
     if len(tracking_seq) == 0:

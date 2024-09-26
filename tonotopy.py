@@ -539,7 +539,7 @@ def plot_heatmap_bandwidth(heatmaps,threshold, gc,unique_tones, min_freq, max_fr
 
     # Create a figure with subplots
     fig, axes = plt.subplots(4, 8, figsize=(16, 8))
-    fig.suptitle('Heatmaps clusters', y=1.02)
+    fig.suptitle(f'Heatmaps clusters {condition}', y=1.02)
     plt.subplots_adjust() 
     
      # Flatten the axis array if it's more than 1D
@@ -584,8 +584,13 @@ def plot_heatmap_bandwidth(heatmaps,threshold, gc,unique_tones, min_freq, max_fr
 
             # Concaténation à l'arrière
             milieu = np.concatenate((milieu, highf))
-            
-            img = axes[row, col].pcolormesh(milieu, cmap=create_centered_colormap(abs_max), vmin=-abs_max, vmax=abs_max)
+
+
+            vmin = np.min(milieu)  # Valeur minimale dans ta matrice
+            vmax = np.max(milieu)  # Valeur maximale dans ta matrice
+            norm = colors.TwoSlopeNorm(vmin=vmin, vcenter=0, vmax=vmax)  # Normalisation centrée sur 0
+            #img = axes[row, col].pcolormesh(milieu, cmap=create_centered_colormap(abs_max), vmin=-abs_max, vmax=abs_max)
+            img = axes[row, col].pcolormesh(milieu, cmap='seismic', norm=norm)
             #axes[row, col].set_yticks(np.arange(len(unique_tones)), unique_tones)
             axes[row, col].set_xlabel('Time')
             #axes[row, col].set_ylabel('Frequency [Hz]')
@@ -609,7 +614,7 @@ def plot_heatmap_bandwidth(heatmaps,threshold, gc,unique_tones, min_freq, max_fr
                         test = contour[:, 0]
                         if maxf<len(unique_tones)-1:
                             maxf+=1
-            axes[row, col].plot(x_c, y_c, linewidth=2, color='green')
+            #axes[row, col].plot(x_c, y_c, linewidth=2, color='green')
             print(x_c, y_c)
             #print(plotted_freq[int(min)], plotted_freq[int(max)])
             # je mets np.nan dans bandwidth si je ne trouve pas de contour

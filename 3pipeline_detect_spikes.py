@@ -21,7 +21,7 @@ matplotlib.use('Agg')
 sr=30e3
 # adresse pour OSCYPEK : /mnt/working2/felicie/data2/eTheremin/OSCYPEK/OSCYPEK
 
-root = '/auto/data2/eTheremin/OSCYPEK/OSCYPEK/OSCYPEK_20240710_SESSION_00/'
+root = '/auto/data2/eTheremin/ALTAI/ALTAI_20240809_SESSION_00/'
 path = root+'headstage_0/' 
 #path=root
 #neural_data = np.load(root +'/neural_data.npy')
@@ -60,11 +60,14 @@ def get_fma_probe():
 n_cpus = os.cpu_count()
 
 full_raw_rec = se.NumpyRecording(traces_list=np.transpose(sig), sampling_frequency=sr)
-#raw_rec = full_raw_rec.set_probe(probe)
-#raw_rec = raw_rec.remove_channels(["CH2"])
-recording_cmr = si.common_reference(full_raw_rec, reference='global', operator='median')
-recording_f = si.bandpass_filter(full_raw_rec, freq_min=300, freq_max=9000)
+# Convertir le type de données avant d'appliquer le filtre
+full_raw_rec = full_raw_rec.astype('float32')  # Vous pouvez aussi utiliser 'int16'
 
+raw_rec = full_raw_rec
+#raw_rec = full_raw_rec.remove_channels(["CH3", "CH4", "CH5", "CH6", "CH7","CH9", "CH10", "CH11","CH12", "CH13","CH14", "CH15", "CH16", "CH17", "CH18", "CH19", "CH21", "CH22", "CH23","CH31"  ])
+recording_cmr = si.common_reference(raw_rec, reference='global', operator='median')
+recording_f = si.bandpass_filter(recording_cmr, freq_min=300, freq_max=3000)
+#np.save(path+'/recording_f.npy', recording_f.get_traces())
 n_cpus = os.cpu_count()
 n_jobs = n_cpus - 4
 job_kwargs = dict(chunk_duration='5s', n_jobs=n_jobs, progress_bar=True)
@@ -73,9 +76,9 @@ peaks = detect_peaks(
         recording_f,
         method='by_channel',
         gather_mode="memory",
-        peak_sign='neg',
+        peak_sign='neg',#neg
         detect_threshold=4, #2,   thresh = 3.32 for burrata # 3.2 sinon c'est bien
-        exclude_sweep_ms=0.1,
+        exclude_sweep_ms=1, #avant c'etait 0.1 je teste à 1
         noise_levels=None,
         random_chunk_kwargs={},
 
