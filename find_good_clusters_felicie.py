@@ -90,7 +90,42 @@ def check_responsiveness(triggers, spikes, path, clusters=None, tag=None):
 
 
 #### ici ca commence 
-path = '/auto/data2/eTheremin/ALTAI/ALTAI_20240809_SESSION_00/headstage_0/'
+path = '/auto/data2/eTheremin/ALTAI/ALTAI_20240710_SESSION_00/headstage_0/'
+
+
+
+# charger la recording length (nécessaire pour charger les spikes)    
+#file = path+'recording_length.bin'
+#with open(file, 'rb') as file:
+    #recording_length = file.read()
+#recording_length = recording_length.decode('utf-8')
+
+    # Extract only the numbers using a simple filter
+#recording_length = int(''.join(filter(str.isdigit, recording_length))) 
+
+# Extraire les spikes
+#spk = Spikes(path, recording_length=int(recording_length))  
+spike_times = np.load(path+'/spike_times.npy', allow_pickle=True)
+spike_clusters = np.load(path+'/spike_clusters.npy', allow_pickle=True)
+
+spk = {}
+for value, cluster in zip(spike_times, spike_clusters):
+    if cluster not in spk:
+        spk[cluster] = []
+    spk[cluster].append(value)
+#Extraire les temps des triggers
+trig_times = extract_times_triggers(path+'tt.pkl')
+
+#Zeta Test : 
+check_responsiveness(trig_times, spk, path, clusters=None, tag=None)
+
+print('all izz well')
+
+
+
+
+#### ici ca commence 
+path = '/auto/data2/eTheremin/ALTAI/ALTAI_20240902_SESSION_00/headstage_0/'
 
 
 
