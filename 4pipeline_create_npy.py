@@ -10,10 +10,14 @@ t_pre = 0.2#0.2
 t_post = 0.50#0.300
 bin_width = 0.005
 psth_bins = np.arange(-t_pre, t_post + bin_width, bin_width)
-channel = 15
 
-#path = 'Z:/eTheremin/OSCYPEK/OSCYPEK/OSCYPEK_20240710_SESSION_00/headstage_0'
-path = 'Z:/eTheremin/ALTAI/ALTAI_20240712_SESSION_00/headstage_0'
+
+# path = 'Z:/eTheremin/OSCYPEK/OSCYPEK/OSCYPEK_20240710_SESSION_00/headstage_0'
+chemin  = 'Z:/eTheremin/ALTAI/ALTAI_20240910_SESSION_00/'
+session = 'ALTAI_20240910_SESSION_00/' + 'filtered/'
+num_channel = [3,6,17,5,23,16,14,31]
+#num_channel = np.load(chemin + 'headstage_0' + '/good_clusters.npy', allow_pickle = True)
+save_path = 'Y:/eTheremin/clara/' + session
 
 mock=False
 #session_type = get_session_type_final(path)
@@ -33,7 +37,8 @@ mock=False
 # mat_file = 'Z:/eTheremin/OSCYPEK/OSCYPEK/OSCYPEK_20240710_SESSION_00/spike_sorting/times_C' + str(channel) + '.mat'
 # npy_file = 'Z:/eTheremin/OSCYPEK/OSCYPEK/OSCYPEK_20240710_SESSION_00/spike_sorting/times_C' + str(channel) + '.npy'
 
-mat_file = 'Z:/eTheremin/ALTAI/ALTAI_20240712_SESSION_00/spike_sorting/times_C' + str(channel) + '.mat'
-npy_file = 'Z:/eTheremin/ALTAI/ALTAI_20240712_SESSION_00/spike_sorting/times_C' + str(channel) + '.npy'
-create_spikes_clusters(path + '/spike_sorting',channel, mat_file, npy_file) 
-create_data_features_ss(path ,channel,  bin_width, fs, mock=False)
+for channel in num_channel:
+    mat_file = save_path + 'times_C' + str(channel) + '.mat'
+    npy_file = save_path + 'times_C' + str(channel) + '.npy'
+    create_spikes_clusters(save_path, channel, mat_file, npy_file) 
+    create_data_features_ss(save_path, channel,  bin_width, fs, mock=False)

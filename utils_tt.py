@@ -865,8 +865,8 @@ def create_data_features_ss(path, clus, bin_width, fs, mock=False):
     #extraire recording_length OK ca marche
 
  
-    spk_clusters = np.load(path+'/spike_sorting/ss_C' + str(clus) + '_spike_clusters.npy', allow_pickle=True)
-    spk_times = np.load(path+'/spike_sorting/ss_C' + str(clus) + '_spike_times.npy', allow_pickle=True)
+    spk_clusters = np.load(path+'ss_C' + str(clus) + '_spike_clusters.npy', allow_pickle=True)
+    spk_times = np.load(path+'ss_C' + str(clus) + '_spike_times.npy', allow_pickle=True)
 
     clusters = {}
     for value, cluster in zip(spk_times, spk_clusters):
@@ -912,11 +912,11 @@ def create_data_features_ss(path, clus, bin_width, fs, mock=False):
 
     print(histograms_per_cluster)
     data = [histograms_per_cluster[key][0] for key in histograms_per_cluster]
-    np.save(path+f'/spike_sorting/data_ss_channel_{clus}_{bin_width}.npy', data)
+    np.save(path+f'data_ss_channel_{clus}_{bin_width}.npy', data)
 
 
     #### TRIGGERS
-    tt_path = path+'/tt.pkl'
+    tt_path = path+'tt.pkl'
     with open(tt_path, 'rb') as file:
         tt = pickle.load(file)
         
@@ -926,6 +926,7 @@ def create_data_features_ss(path, clus, bin_width, fs, mock=False):
     #sorted_condition = tt['condition'][sorted_indices]
     
     t_stim = np.array(tt['triggers'])/fs
+    print(tt.keys)
     f_stim = tt['tones']
     type_stim = tt['condition']
     block = [int(block[-1]) for block in tt['block']]

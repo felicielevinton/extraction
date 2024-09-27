@@ -79,10 +79,12 @@ def get_played_frequency(features, t_pre, t_post, bin_width, condition):
     """
     if condition=="tracking":
         c = 0
-    elif condition=='tonotopy':
+    elif condition=="playback":
+        c=1
+    elif condition=="tail":
         c = -1
-    elif condition=='playback':
-        c = 1
+    elif condition == "mappingchange":
+        c = 2
     frequency = []
     for bin in range(len(features)):
         if bin-int(t_pre/bin_width)>0 and bin+int(t_post/bin_width)<len(features):

@@ -88,7 +88,10 @@ def get_tonotopy(data, features, t_pre, t_post, bin_width, good_clusters, unique
         
         #heatmap = average_psths_array[min_freq:-max_freq]-mu
         #heatmap = average_psths_array-mu
-        heatmap = average_psths_array 
+        heatmap = average_psths_array
+        #centrer en 0
+        n = 9 #n = nombre de noyaux de flou gaussien, doit être un nombre impair positif
+        heatmap = smooth_2d(heatmap, n) 
         heatmaps.append(heatmap)
         np.save('spike_sorting_' + save_name, np.array(heatmaps))
     
@@ -181,7 +184,8 @@ def plot_heatmap_bandwidth(heatmaps,threshold, gc,unique_tones, min_freq, max_fr
 
 
     # Create a figure with subplots
-    fig, axes = plt.subplots(4, 8, figsize=(16, 8))
+    #fig, axes = plt.subplots(4, 8, figsize=(16, 8))
+    fig, axes = plt.subplots(1, len(gc), figsize=(16, 8))
     fig.suptitle(f'Heatmaps clusters {condition}', y=1.02)
     plt.subplots_adjust() 
     
@@ -216,7 +220,7 @@ def plot_heatmap_bandwidth(heatmaps,threshold, gc,unique_tones, min_freq, max_fr
                 heatmap_cluster[i] -= mean_freq[i]
             
             
-            smoothed = smooth_2d(heatmap_cluster, 3)
+            smoothed = smooth_2d(heatmap_cluster, 5)
             
             #je mets des zeros aux frequences trop hautes et trop basses où je n'ai pas
             #assez de présentations
@@ -229,16 +233,22 @@ def plot_heatmap_bandwidth(heatmaps,threshold, gc,unique_tones, min_freq, max_fr
             milieu = np.concatenate((milieu, highf))
 
 
-            vmin = np.min(milieu)  # Valeur minimale dans ta matrice
-            vmax = np.max(milieu)  # Valeur maximale dans ta matrice
+            # vmin = np.min(milieu)  # Valeur minimale dans ta matrice
+            # vmax = np.max(milieu)  # Valeur maximale dans ta matrice
+
+            vmin = -3 * np.std(milieu)  # Valeur minimale dans ta matrice
+            vmax = 3 * np.std(milieu)  # Valeur maximale dans ta matrice
+
             norm = colors.TwoSlopeNorm(vmin=vmin, vcenter=0, vmax=vmax)  # Normalisation centrée sur 0
             #img = axes[row, col].pcolormesh(milieu, cmap=create_centered_colormap(abs_max), vmin=-abs_max, vmax=abs_max)
-            img = axes[row, col].pcolormesh(milieu, cmap='seismic', norm=norm)
+            #img = axes[row, col].pcolormesh(milieu, cmap='seismic', norm=norm)
+            img = axes[cluster].pcolormesh(milieu, cmap='seismic', norm=norm)
+
             #axes[row, col].set_yticks(np.arange(len(unique_tones)), unique_tones)
-            axes[row, col].set_xlabel('Time')
+            axes[cluster].set_xlabel('Time')
             #axes[row, col].set_ylabel('Frequency [Hz]')
-            axes[row, col].set_title(f'Cluster {gc[cluster]}')
-            axes[row, col].axvline(x=t_0, color='black', linestyle='--') # to print a vertical line at the stim onset time
+            axes[cluster].set_title(f'Cluster {gc[cluster]}')
+            axes[cluster].axvline(x=t_0, color='black', linestyle='--') # to print a vertical line at the stim onset time
         
 
             #Je ne prends la réponse qu'entre 40 et 60ms
