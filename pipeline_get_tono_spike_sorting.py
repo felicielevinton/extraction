@@ -39,35 +39,36 @@ threshold = 3 #3.2 #threshold for contour detection 3.2 is good
 #channel_test = [1] #numéro du channel*
 chemin  = 'Z:/eTheremin/ALTAI/ALTAI_20240910_SESSION_00/'
 session = 'ALTAI_20240910_SESSION_00/' + 'filtered/'
-# num_channel = np.load(chemin + 'headstage_0' + '/good_clusters.npy', allow_pickle = True)
+#num_channel = np.load(chemin + 'headstage_0' + '/good_clusters.npy', allow_pickle = True)
 # print(num_channel)
-num_channel = [3,6,17,5,23,16,14,31]
-
-for channel in num_channel:
-
-    print(bin_width)
-    #path = '/auto/data2/eTheremin/ALTAI/ALTAI_20240809_SESSION_00/headstage_0'
-    #path = 'Z:/eTheremin/OSCYPEK/OSCYPEK/OSCYPEK_20240710_SESSION_00/headstage_0'
-    path = 'Y:/eTheremin/clara/' + session
+#num_channel = [14,31]
 
 
-    data = np.load(path+f'data_ss_channel_{channel}_{bin_width}.npy', allow_pickle=True)
-    features = np.load(path+f'features_{bin_width}.npy', allow_pickle=True)
+
+print(bin_width)
+#path = '/auto/data2/eTheremin/ALTAI/ALTAI_20240809_SESSION_00/headstage_0'
+#path = 'Z:/eTheremin/OSCYPEK/OSCYPEK/OSCYPEK_20240710_SESSION_00/headstage_0'
+path = 'Y:/eTheremin/clara/' + session
 
 
-    spk_clusters = np.load(path+'ss_C' + str(channel) + '_spike_clusters.npy', allow_pickle=True)
-    k, counts = np.unique(spk_clusters, return_counts=True)
-    count_dict = dict(zip(k, counts))
-    print(count_dict)
+data = np.load(path+f'data_ss_{bin_width}.npy', allow_pickle=True)
+features = np.load(path+f'features_{bin_width}.npy', allow_pickle=True)
 
-    # mettre une condition si good_clusters.npy n'existe pas alors gc = 32
-    gc = np.arange(len(k))
 
-    #récupérer les tones joués
-    tones = get_played_frequency(features, t_pre, t_post, bin_width, 'tail')
-    # prendre les valeurs uniques de tones
-    unique_tones = sorted(np.unique(tones))
-    #récupérer les heatmaps
-    heatmaps = get_tonotopy(data, features, t_pre, t_post, bin_width, gc, unique_tones, max_freq, min_freq, 'tail', 'spike_sorting_' + str(channel) + 'heatmaps')
+spk_clusters = np.load(path+'ss_spike_clusters.npy', allow_pickle=True)
+k, counts = np.unique(spk_clusters, return_counts=True)
+count_dict = dict(zip(k, counts))
+print(count_dict)
 
-    plot_heatmap_bandwidth(heatmaps,threshold, gc,unique_tones, min_freq, max_freq, bin_width, psth_bins, t_pre,path, '', 'spike_sorting_C' + str(channel) +'_tail')
+# mettre une condition si good_clusters.npy n'existe pas alors gc = 32
+gc = np.arange(len(k))
+
+#récupérer les tones joués
+tones = get_played_frequency(features, t_pre, t_post, bin_width, 'tail')
+# prendre les valeurs uniques de tones
+unique_tones = sorted(np.unique(tones))
+#récupérer les heatmaps
+heatmaps = get_tonotopy(data, features, t_pre, t_post, bin_width, gc, unique_tones, max_freq, min_freq, 'tail', 'spike_sorting_heatmaps')
+print(heatmaps)
+
+plot_heatmap_bandwidth(heatmaps,threshold, gc, k, unique_tones, min_freq, max_freq, bin_width, psth_bins, t_pre,path, '', 'spike_sorting_tail')

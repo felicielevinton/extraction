@@ -1,0 +1,234 @@
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 5
+
+[Warning: Not enough spikes in the file] 
+[> In Do_clustering>do_clustering_single (line 520)
+In Do_clustering (line 177)] 
+0 of 1 'times' files finished.
+Computations Done (0.20s).
+Creating figures...
+1 figs Done.  
+Elapsed time is 8.304146 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 5
+
+[Warning: Not enough spikes in the file] 
+[> In Do_clustering>do_clustering_single (line 520)
+In Do_clustering (line 177)] 
+0 of 1 'times' files finished.
+Computations Done (0.17s).
+Creating figures...
+1 figs Done.  
+Elapsed time is 4.167354 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 5
+
+[Warning: Not enough spikes in the file] 
+[> In Do_clustering>do_clustering_single (line 520)
+In Do_clustering (line 177)] 
+0 of 1 'times' files finished.
+Computations Done (0.17s).
+Creating figures...
+1 figs Done.  
+Elapsed time is 4.655342 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 5
+
+[Warning: Not enough spikes in the file] 
+[> In Do_clustering>do_clustering_single (line 520)
+In Do_clustering (line 177)] 
+0 of 1 'times' files finished.
+Computations Done (0.16s).
+Creating figures...
+1 figs Done.  
+Elapsed time is 4.227810 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 5
+
+[Warning: Not enough spikes in the file] 
+[> In Do_clustering>do_clustering_single (line 520)
+In Do_clustering (line 177)] 
+0 of 1 'times' files finished.
+Computations Done (0.16s).
+Creating figures...
+1 figs Done.  
+Elapsed time is 4.229495 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 5
+
+[Warning: Not enough spikes in the file] 
+[> In Do_clustering>do_clustering_single (line 520)
+In Do_clustering (line 177)] 
+0 of 1 'times' files finished.
+Computations Done (0.17s).
+Creating figures...
+1 figs Done.  
+Elapsed time is 4.167660 seconds.

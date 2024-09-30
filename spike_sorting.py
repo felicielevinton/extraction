@@ -12,24 +12,41 @@ def convert_mat_to_npy(mat_file, npy_file):
 
 #Convertir .mat en .npy
 
-def create_spikes_clusters(path,channel, mat_file, npy_file):
+
+def create_spikes_clusters(save_path, num_channel):
     spk_clus_f = []
     spk_times_f = []
-    #print('Z:/eTheremin/OSCYPEK/OSCYPEK/OSCYPEK_20240710_SESSION_00/Nouveaudossier/times_C_{channel}.npy')
+    # Parcourir chaque canal
+    for channel in num_channel:
+        mat_file = save_path + 'times_C' + str(channel) + '.mat'
+        npy_file = save_path + 'times_C' + str(channel) + '.npy'
+        convert_mat_to_npy(mat_file, npy_file)  # Convertit le fichier .mat en .npy
+        # Charger le fichier .npy
+        ss = np.load(npy_file, allow_pickle=True)
 
+        # Diviser le fichier en temps de spikes et clusters associés
+        spk_clus = ss[:, 0]
+        spk_clus = [x + channel * 100 for x in spk_clus]  # Ajoute le décalage du canal
+        spk_clus = [int(elt) for elt in spk_clus]
+        spk_times = ss[:, 1]
+        
+        # Ajouter les valeurs au tableau final
+        spk_clus_f.extend(spk_clus)
+        spk_times_f.extend(spk_times)
 
-    convert_mat_to_npy(mat_file, npy_file)
-    #load le fichier .npy
-    ss = np.load(npy_file, allow_pickle=True)
+    # Combiner spk_times_f et spk_clus_f dans une liste de tuples
+    combined = list(zip(spk_times_f, spk_clus_f))
 
-    # diviser le fichier en temps de spikes et clusters associés
-    spk_clus = ss[:,0]
-    spk_clus = [x + channel*100 for x in spk_clus]
-    spk_clus = [int(elt) for elt in spk_clus]
-    spk_times = ss[:, 1]
-    spk_clus_f = spk_clus_f + spk_clus
-    spk_times_f = np.concatenate((spk_times_f, spk_times))
+    # Trier en fonction de spk_times_f (le premier élément de chaque tuple)
+    combined_sorted = sorted(combined, key=lambda x: x[0])
 
-    #save
-    np.save(path + '/ss_C' + str(channel) + '_spike_clusters.npy',spk_clus_f)
-    np.save(path + '/ss_C' + str(channel) + '_spike_times.npy',spk_times_f)
+    # Séparer les listes triées
+    spk_times_f_sorted, spk_clus_f_sorted = zip(*combined_sorted)
+
+    # Convertir en listes (si nécessaire)
+    spk_times_f_sorted = list(spk_times_f_sorted)
+    spk_clus_f_sorted = list(spk_clus_f_sorted)
+
+    # Sauvegarder les résultats triés
+    np.save(save_path + '/ss_spike_clusters.npy', spk_clus_f_sorted)
+    np.save(save_path + '/ss_spike_times.npy', spk_times_f_sorted)

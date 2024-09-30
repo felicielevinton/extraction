@@ -137,26 +137,17 @@ def get_contour(hm, threshold):
     return contours
 
 
-def get_plot_coords(channel_number):
+def get_plot_coords(channel_number,n_rows, n_cols):
     """
     Fonction qui calcule la position en 2D d'un canal sur une Microprobe.
     Retourne la ligne et la colonne.
     """
-    if channel_number in list(range(8)):
-        row = 3
-        col = channel_number % 8
+    row = channel_number // n_cols  # Division entière pour obtenir la ligne
+    col = channel_number % n_cols   # Reste de la division pour obtenir la colonne
 
-    elif channel_number in list(range(8, 16)):
-        row = 1
-        col = 7 - channel_number % 8
-
-    elif channel_number in list(range(16, 24)):
-        row = 0
-        col = 7 - channel_number % 8
-
-    else:
-        row = 2
-        col = channel_number % 8
+    # Vérification que le canal est bien dans les limites du tableau
+    if row >= n_rows:
+        raise ValueError("Le numéro du canal dépasse le nombre de lignes disponibles dans le tableau.")
 
     return row, col
 
@@ -164,7 +155,8 @@ def get_plot_coords(channel_number):
 
 
 
-def plot_heatmap_bandwidth(heatmaps,threshold, gc,unique_tones, min_freq, max_freq, bin_width, psth_bins, t_pre,path, folder, condition):
+
+def plot_heatmap_bandwidth(heatmaps,threshold, gc, k ,unique_tones, min_freq, max_freq, bin_width, psth_bins, t_pre,path, folder, condition):
     """""
     Best function pour déterminer la bandwidth et plotter la heatmap et les contours de la bandwidth
     input : heatmaps(contenant plusieurs clusters), le threshold pour la detection du pic, good_clusters
@@ -181,12 +173,17 @@ def plot_heatmap_bandwidth(heatmaps,threshold, gc,unique_tones, min_freq, max_fr
     #num_rows, num_columns = get_plot_geometry(gc)
     
     num_plots, num_rows, num_columns = get_better_plot_geometry(gc)
-
+    print(num_plots, num_rows, num_columns)
 
     # Create a figure with subplots
     #fig, axes = plt.subplots(4, 8, figsize=(16, 8))
-    fig, axes = plt.subplots(1, len(gc), figsize=(16, 8))
+    fig_width = 4 * num_columns  # Ajustez selon vos besoins
+    fig_height = 4 * num_rows  # Ajustez selon vos besoins
+
+    # Ajustez la taille globale de la figure
+    fig, axes = plt.subplots(num_rows, num_columns, figsize=(fig_width, fig_height))
     fig.suptitle(f'Heatmaps clusters {condition}', y=1.02)
+    plt.subplots_adjust(wspace=0.4, hspace=0.4)
     plt.subplots_adjust() 
     
      # Flatten the axis array if it's more than 1D
@@ -198,7 +195,7 @@ def plot_heatmap_bandwidth(heatmaps,threshold, gc,unique_tones, min_freq, max_fr
     peaks = []
     for cluster in range(num_plots):
         if cluster < num_plots:
-            row, col = get_plot_coords(cluster)
+            row, col = get_plot_coords(cluster,num_rows, num_columns)
             #print(cluster)
             heatmap_cluster = np.array(heatmaps[cluster])
             hm, peak = detect_peak(heatmaps, cluster)
@@ -242,13 +239,13 @@ def plot_heatmap_bandwidth(heatmaps,threshold, gc,unique_tones, min_freq, max_fr
             norm = colors.TwoSlopeNorm(vmin=vmin, vcenter=0, vmax=vmax)  # Normalisation centrée sur 0
             #img = axes[row, col].pcolormesh(milieu, cmap=create_centered_colormap(abs_max), vmin=-abs_max, vmax=abs_max)
             #img = axes[row, col].pcolormesh(milieu, cmap='seismic', norm=norm)
-            img = axes[cluster].pcolormesh(milieu, cmap='seismic', norm=norm)
+            img = axes[row, col].pcolormesh(milieu, cmap='seismic', norm=norm)
 
             #axes[row, col].set_yticks(np.arange(len(unique_tones)), unique_tones)
-            axes[cluster].set_xlabel('Time')
+            axes[row, col].set_xlabel('Time')
             #axes[row, col].set_ylabel('Frequency [Hz]')
-            axes[cluster].set_title(f'Cluster {gc[cluster]}')
-            axes[cluster].axvline(x=t_0, color='black', linestyle='--') # to print a vertical line at the stim onset time
+            axes[row, col].set_title(f'Cluster {k[cluster]}')
+            axes[row, col].axvline(x=t_0, color='black', linestyle='--') # to print a vertical line at the stim onset time
         
 
             #Je ne prends la réponse qu'entre 40 et 60ms

@@ -846,7 +846,7 @@ def create_data_features_mock(path, bin_width, fs, mock=True):
         
 
 
-def create_data_features_ss(path, clus, bin_width, fs, mock=False):
+def create_data_features_ss(path, bin_width, fs, mock=False):
     # clus : numero du cluster spike sorté
 
     # version si spike_sorting c'est une version test
@@ -865,14 +865,15 @@ def create_data_features_ss(path, clus, bin_width, fs, mock=False):
     #extraire recording_length OK ca marche
 
  
-    spk_clusters = np.load(path+'ss_C' + str(clus) + '_spike_clusters.npy', allow_pickle=True)
-    spk_times = np.load(path+'ss_C' + str(clus) + '_spike_times.npy', allow_pickle=True)
+    spk_clusters = np.load(path+'ss_spike_clusters.npy', allow_pickle=True)
+    spk_times = np.load(path+'ss_spike_times.npy', allow_pickle=True)
 
     clusters = {}
     for value, cluster in zip(spk_times, spk_clusters):
         if cluster not in clusters:
             clusters[cluster] = []
         clusters[cluster].append(value)
+    np.save(path+f'/channels_and_clusters.npy', clusters)
 
     ##NEURO
     t_spk, c_spk = [], [] #spike times, cluster
@@ -912,7 +913,7 @@ def create_data_features_ss(path, clus, bin_width, fs, mock=False):
 
     print(histograms_per_cluster)
     data = [histograms_per_cluster[key][0] for key in histograms_per_cluster]
-    np.save(path+f'data_ss_channel_{clus}_{bin_width}.npy', data)
+    np.save(path+f'data_ss_{bin_width}.npy', data)
 
 
     #### TRIGGERS
