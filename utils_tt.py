@@ -865,10 +865,11 @@ def create_data_features_ss(path, bin_width, fs, mock=False):
     #extraire recording_length OK ca marche
 
  
-    spk_clusters = np.load(path+'ss_spike_clusters.npy', allow_pickle=True)
+    spk_clus = np.load(path+'ss_spike_clusters.npy', allow_pickle=True)
     spk_times = np.load(path+'ss_spike_times.npy', allow_pickle=True)
 
     clusters = {}
+    spk_clusters = [x[1]+ x[0] * 100 for x in spk_clus] 
     for value, cluster in zip(spk_times, spk_clusters):
         if cluster not in clusters:
             clusters[cluster] = []

@@ -34,11 +34,35 @@ def get_plot_geometry(good_clusters):
     num_rows = -(-n_clus // num_columns)
     return num_rows, num_columns
 
-def get_better_plot_geometry(good_clusters):
+
+
+def process_cluster_order(cluster_order):
+    # Convertir le tableau en entier si nécessaire (facultatif, en fonction de ton besoin)
+    # Convertir en tableau NumPy si ce n'est pas déjà fait
+    cluster_order = np.array(cluster_order)
+    
+    # Vérifier si c'est bien un tableau 2D
+    if cluster_order.ndim != 2:
+        raise ValueError(f"cluster_order doit être un tableau 2D, mais a la forme {cluster_order.shape}")
+    
+    # Suppression des sous-listes dupliquées
+    unique_order = np.unique(cluster_order, axis=0)
+
+    # Tri d'abord par le deuxième élément, puis par le premier
+    sorted_indices = np.lexsort((unique_order[:, 1], unique_order[:, 0]))
+    sorted_unique_order = unique_order[sorted_indices]
+
+    return sorted_unique_order
+
+
+
+def get_better_plot_geometry(cluster_order,good_cluster):
     # Calculate number of rows and columns for subplots
-    num_plots = len(good_clusters)
-    num_cols = int(np.ceil(np.sqrt(num_plots)))
-    num_rows = int(np.ceil(num_plots / num_cols))
+    #cluster_order c'est une liste de sous-listes [channel,cluster] de len 3000000 qqchose
+    order = process_cluster_order(cluster_order) #numéros des channels 
+    num_plots = len(order)
+    num_cols = int(np.max(order[:, 1])) + 1
+    num_rows = len(good_cluster) + 1
     return num_plots, num_rows, num_cols
 
 def get_psth(data, features, t_pre, t_post, bin_width, good_clusters, condition):

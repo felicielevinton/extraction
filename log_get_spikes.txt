@@ -190,3 +190,3881 @@ par =
                 stdmin: 5
 
 1 of 1 'spikes' files done.
+ERROR: MATLAB error Exit Status: 0x00000001
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+Wave_clus didn't find a sampling rate in file. It will use the input parameter or set_parameters.m
+{Error using load
+Unable to read MAT-file Y:\eTheremin\clara\ALTAI_20240910_SESSION_00\filtered\std.min = 3\C24.mat. File might be corrupt.
+
+Error in mat_wc_reader/get_segment (line 91)
+            load(obj.raw_filename,'data');
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in readInData/get_segment (line 251)
+            x = obj.file_reader.get_segment(obj.n_to_read);
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in Get_spikes>get_spikes_single (line 182)
+            x = data_handler.get_segment();
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in Get_spikes (line 134)
+        get_spikes_single(filename, par_input);
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+ERROR: MATLAB error Exit Status: 0x00000001
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+Wave_clus didn't find a sampling rate in file. It will use the input parameter or set_parameters.m
+{Error using load
+Unable to read MAT-file Y:\eTheremin\clara\ALTAI_20240910_SESSION_00\filtered\std.min = 3\C24.mat. File might be corrupt.
+
+Error in mat_wc_reader/get_segment (line 91)
+            load(obj.raw_filename,'data');
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in readInData/get_segment (line 251)
+            x = obj.file_reader.get_segment(obj.n_to_read);
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in Get_spikes>get_spikes_single (line 182)
+            x = data_handler.get_segment();
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in Get_spikes (line 134)
+        get_spikes_single(filename, par_input);
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+ERROR: MATLAB error Exit Status: 0x00000001
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+Wave_clus didn't find a sampling rate in file. It will use the input parameter or set_parameters.m
+{Error using load
+Unable to read MAT-file Y:\eTheremin\clara\ALTAI_20240910_SESSION_00\filtered\std.min = 3\C24.mat. File might be corrupt.
+
+Error in mat_wc_reader/get_segment (line 91)
+            load(obj.raw_filename,'data');
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in readInData/get_segment (line 251)
+            x = obj.file_reader.get_segment(obj.n_to_read);
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in Get_spikes>get_spikes_single (line 182)
+            x = data_handler.get_segment();
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in Get_spikes (line 134)
+        get_spikes_single(filename, par_input);
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+ERROR: MATLAB error Exit Status: 0x00000001
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+Wave_clus didn't find a sampling rate in file. It will use the input parameter or set_parameters.m
+{Error using load
+Unable to read MAT-file Y:\eTheremin\clara\ALTAI_20240910_SESSION_00\filtered\std.min = 3\C24.mat. File might be corrupt.
+
+Error in mat_wc_reader/get_segment (line 91)
+            load(obj.raw_filename,'data');
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in readInData/get_segment (line 251)
+            x = obj.file_reader.get_segment(obj.n_to_read);
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in Get_spikes>get_spikes_single (line 182)
+            x = data_handler.get_segment();
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in Get_spikes (line 134)
+        get_spikes_single(filename, par_input);
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+ERROR: MATLAB error Exit Status: 0x00000001
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+1 of 1 'spikes' files done.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'spikes' files done.
+0 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.
+1 of 1 'spikes' files done.

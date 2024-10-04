@@ -232,3 +232,4535 @@ Computations Done (0.17s).
 Creating figures...
 1 figs Done.  
 Elapsed time is 4.167660 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (62.06s).
+Creating figures...
+1  
+Elapsed time is 75.575820 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (104.15s).
+Creating figures...
+1  
+Elapsed time is 115.775211 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (102.29s).
+Creating figures...
+1  
+Elapsed time is 113.102995 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (109.53s).
+Creating figures...
+1  
+Elapsed time is 121.652506 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (69.20s).
+Creating figures...
+1  
+Elapsed time is 79.109612 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (72.39s).
+Creating figures...
+1  
+Elapsed time is 82.664937 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (103.25s).
+Creating figures...
+1  
+Elapsed time is 114.398025 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (104.14s).
+Creating figures...
+1  
+Elapsed time is 115.212663 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (102.56s).
+Creating figures...
+1  
+Elapsed time is 113.104054 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (102.72s).
+Creating figures...
+1  
+Elapsed time is 113.472285 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (114.71s).
+Creating figures...
+1  
+Elapsed time is 130.876040 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (108.87s).
+Creating figures...
+1  
+Elapsed time is 125.867406 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (108.21s).
+Creating figures...
+1  
+Elapsed time is 120.206884 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (104.98s).
+Creating figures...
+1  
+Elapsed time is 116.672389 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (111.06s).
+Creating figures...
+1  
+Elapsed time is 127.925087 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (104.27s).
+Creating figures...
+1  
+Elapsed time is 115.057159 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (107.55s).
+Creating figures...
+1  
+Elapsed time is 124.363246 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (107.34s).
+Creating figures...
+1  
+Elapsed time is 118.919088 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (110.36s).
+Creating figures...
+1  
+Elapsed time is 127.667463 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+[Warning: Not enough spikes in the file] 
+[> In Do_clustering>do_clustering_single (line 520)
+In Do_clustering (line 177)] 
+0 of 1 'times' files finished.
+Computations Done (0.19s).
+Creating figures...
+1 figs Done.  
+Elapsed time is 5.305344 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (68.56s).
+Creating figures...
+1  
+Elapsed time is 79.084666 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (107.41s).
+Creating figures...
+1  
+Elapsed time is 119.146974 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (103.58s).
+Creating figures...
+1  
+Elapsed time is 114.275978 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (71.92s).
+Creating figures...
+1  
+Elapsed time is 82.132762 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (104.13s).
+Creating figures...
+1  
+Elapsed time is 115.305881 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (115.25s).
+Creating figures...
+1  
+Elapsed time is 131.246742 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+[Warning: Not enough spikes in the file] 
+[> In Do_clustering>do_clustering_single (line 520)
+In Do_clustering (line 177)] 
+0 of 1 'times' files finished.
+Computations Done (0.16s).
+Creating figures...
+1 figs Done.  
+Elapsed time is 4.045707 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (68.43s).
+Creating figures...
+1  
+Elapsed time is 78.208023 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (107.63s).
+Creating figures...
+1  
+Elapsed time is 119.894374 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (102.66s).
+Creating figures...
+1  
+Elapsed time is 113.350174 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (71.99s).
+Creating figures...
+1  
+Elapsed time is 82.081829 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (104.05s).
+Creating figures...
+1  
+Elapsed time is 115.218300 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (123.32s).
+Creating figures...
+1  
+Elapsed time is 140.033654 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (112.44s).
+Creating figures...
+1  
+Elapsed time is 134.018012 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (61.60s).
+Creating figures...
+1  
+Elapsed time is 71.385825 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (107.51s).
+Creating figures...
+1  
+Elapsed time is 124.227634 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+[Warning: Not enough spikes in the file] 
+[> In Do_clustering>do_clustering_single (line 520)
+In Do_clustering (line 177)] 
+0 of 1 'times' files finished.
+Computations Done (0.16s).
+Creating figures...
+1 figs Done.  
+Elapsed time is 4.053466 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (154.42s).
+Creating figures...
+1  
+Elapsed time is 166.342792 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (103.66s).
+Creating figures...
+1  
+Elapsed time is 116.163552 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (117.59s).
+Creating figures...
+1  
+Elapsed time is 130.033749 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (104.39s).
+Creating figures...
+1  
+Elapsed time is 115.247738 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (103.11s).
+Creating figures...
+1  
+Elapsed time is 114.202331 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (118.07s).
+Creating figures...
+1  
+Elapsed time is 129.253123 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (102.75s).
+Creating figures...
+1  
+Elapsed time is 113.630826 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (103.84s).
+Creating figures...
+1  
+Elapsed time is 115.267778 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (107.34s).
+Creating figures...
+1  
+Elapsed time is 118.929471 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (110.18s).
+Creating figures...
+1  
+Elapsed time is 126.948440 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (111.06s).
+Creating figures...
+1  
+Elapsed time is 127.561163 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (102.47s).
+Creating figures...
+1  
+Elapsed time is 113.158853 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (25.43s).
+Creating figures...
+1  
+Elapsed time is 36.916392 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (112.79s).
+Creating figures...
+1  
+Elapsed time is 128.821990 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (89.70s).
+Creating figures...
+1  
+Elapsed time is 98.915024 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (56.96s).
+Creating figures...
+1  
+Elapsed time is 68.860579 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (25.72s).
+Creating figures...
+1  
+Elapsed time is 35.481924 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (55.02s).
+Creating figures...
+1  
+Elapsed time is 66.863235 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (51.44s).
+Creating figures...
+1  
+Elapsed time is 61.314218 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (90.27s).
+Creating figures...
+1  
+Elapsed time is 99.658050 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (19.08s).
+Creating figures...
+1  
+Elapsed time is 28.605565 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (74.85s).
+Creating figures...
+1  
+Elapsed time is 85.094849 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 4
+
+0 of 1 'times' files finished.
+Computations Done (35.02s).
+Creating figures...
+1  
+Elapsed time is 44.755920 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (106.74s).
+Creating figures...
+1  
+Elapsed time is 118.995384 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (109.19s).
+Creating figures...
+1  
+Elapsed time is 122.446099 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (107.94s).
+Creating figures...
+1  
+Elapsed time is 121.248490 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (107.42s).
+Creating figures...
+1  
+Elapsed time is 120.776021 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (106.71s).
+Creating figures...
+1  
+Elapsed time is 118.422776 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (106.77s).
+Creating figures...
+1  
+Elapsed time is 119.811106 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (111.00s).
+Creating figures...
+1  
+Elapsed time is 124.050174 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (110.58s).
+Creating figures...
+1  
+Elapsed time is 122.571867 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (108.02s).
+Creating figures...
+1  
+Elapsed time is 121.025738 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (108.94s).
+Creating figures...
+1  
+Elapsed time is 122.059350 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (119.05s).
+Creating figures...
+1  
+Elapsed time is 130.524405 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (113.81s).
+Creating figures...
+1  
+Elapsed time is 131.681031 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (116.63s).
+Creating figures...
+1  
+Elapsed time is 129.434430 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (111.17s).
+Creating figures...
+1  
+Elapsed time is 123.737980 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (106.95s).
+Creating figures...
+1  
+Elapsed time is 120.051951 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (119.76s).
+Creating figures...
+1  
+Elapsed time is 137.860451 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (112.32s).
+Creating figures...
+1  
+Elapsed time is 124.527374 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (119.80s).
+Creating figures...
+1  
+Elapsed time is 137.614191 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (110.54s).
+Creating figures...
+1  
+Elapsed time is 122.693584 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (123.59s).
+Creating figures...
+1  
+Elapsed time is 140.680145 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (136.28s).
+Creating figures...
+1  
+Elapsed time is 150.009803 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (118.54s).
+Creating figures...
+1  
+Elapsed time is 131.892932 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (107.28s).
+Creating figures...
+1  
+Elapsed time is 120.627050 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (138.99s).
+Creating figures...
+1  
+Elapsed time is 158.211340 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (159.79s).
+Creating figures...
+1  
+Elapsed time is 171.305425 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (112.79s).
+Creating figures...
+1  
+Elapsed time is 131.259131 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (125.53s).
+Creating figures...
+1  
+Elapsed time is 141.936499 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (142.92s).
+Creating figures...
+1  
+Elapsed time is 160.656653 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (109.88s).
+Creating figures...
+1  
+Elapsed time is 125.081642 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (106.14s).
+Creating figures...
+1  
+Elapsed time is 122.663603 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (119.22s).
+Creating figures...
+1  
+Elapsed time is 135.854612 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (111.23s).
+Creating figures...
+1  
+Elapsed time is 124.432102 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (123.40s).
+Creating figures...
+1  
+Elapsed time is 141.570478 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (157.27s).
+Creating figures...
+1  
+Elapsed time is 175.560721 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (130.55s).
+Creating figures...
+1  
+Elapsed time is 146.951378 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (141.69s).
+Creating figures...
+1  
+Elapsed time is 159.665414 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (119.97s).
+Creating figures...
+1  
+Elapsed time is 138.576505 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (120.80s).
+Creating figures...
+1  
+Elapsed time is 134.376512 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (106.98s).
+Creating figures...
+1  
+Elapsed time is 120.777316 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (110.63s).
+Creating figures...
+1  
+Elapsed time is 125.130398 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (121.70s).
+Creating figures...
+1  
+Elapsed time is 134.929962 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (111.01s).
+Creating figures...
+1  
+Elapsed time is 123.085650 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (118.47s).
+Creating figures...
+1  
+Elapsed time is 132.902204 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (110.32s).
+Creating figures...
+1  
+Elapsed time is 123.839176 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (109.84s).
+Creating figures...
+1  
+Elapsed time is 125.720549 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (114.09s).
+Creating figures...
+1  
+Elapsed time is 126.828162 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (121.67s).
+Creating figures...
+1  
+Elapsed time is 139.592385 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (106.05s).
+Creating figures...
+1  
+Elapsed time is 117.439439 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (107.63s).
+Creating figures...
+1  
+Elapsed time is 119.410037 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (106.83s).
+Creating figures...
+1  
+Elapsed time is 118.713320 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+0 of 1 'times' files finished.
+Computations Done (112.90s).
+Creating figures...
+1  
+Elapsed time is 125.278719 seconds.
+
+par = 
+
+  struct with fields:
+
+       segments_length: 5
+                    sr: 30000
+          cont_segment: 1
+       max_spikes_plot: 1000
+            print2file: 1
+     cont_plot_samples: 100000
+           to_plot_std: 1
+        all_classes_ax: 'mean'
+    plot_feature_stats: 0
+               mintemp: 0
+               maxtemp: 0.2510
+              tempstep: 0.0100
+              SWCycles: 100
+           KNearNeighb: 11
+              min_clus: 1000
+            randomseed: 0
+             temp_plot: 'log'
+                  c_ov: 0.7000
+             elbow_min: 0.4000
+                  tmax: 'all'
+                  tmin: 0
+                 w_pre: 20
+                w_post: 44
+      alignment_window: 10
+                stdmin: 3
+
+[Warning: Not enough spikes in the file] 
+[> In Do_clustering>do_clustering_single (line 520)
+In Do_clustering (line 177)] 
+0 of 1 'times' files finished.
+Computations Done (0.17s).
+Creating figures...
+1 figs Done.  
+Elapsed time is 5.645640 seconds.
+[Warning: Not enough spikes in the file] 
+[> In Do_clustering>do_clustering_single (line 520)
+In Do_clustering (line 177)] 
+0 of 1 'times' files finished.
+Computations Done (0.16s).
+Creating figures...
+1 figs Done.  
+Elapsed time is 4.077802 seconds.
+0 of 1 'times' files finished.
+Computations Done (104.94s).
+Creating figures...
+1  
+Elapsed time is 118.807689 seconds.
+0 of 1 'times' files finished.
+Computations Done (122.26s).
+Creating figures...
+1  
+Elapsed time is 136.352415 seconds.
+0 of 1 'times' files finished.
+Computations Done (126.34s).
+Creating figures...
+1  
+Elapsed time is 150.394540 seconds.
+0 of 1 'times' files finished.
+Computations Done (106.62s).
+Creating figures...
+1  
+Elapsed time is 118.828361 seconds.
+0 of 1 'times' files finished.
+Computations Done (108.26s).
+Creating figures...
+1  
+Elapsed time is 118.861434 seconds.
+0 of 1 'times' files finished.
+Computations Done (111.32s).
+Creating figures...
+1  
+Elapsed time is 129.621117 seconds.
+0 of 1 'times' files finished.
+Computations Done (104.17s).
+Creating figures...
+1  
+Elapsed time is 116.763682 seconds.
+0 of 1 'times' files finished.
+Computations Done (111.52s).
+Creating figures...
+1  
+Elapsed time is 127.964496 seconds.
+0 of 1 'times' files finished.
+Computations Done (105.08s).
+Creating figures...
+1  
+Elapsed time is 116.024270 seconds.
+0 of 1 'times' files finished.
+Computations Done (17.10s).
+Creating figures...
+1  
+Elapsed time is 28.389395 seconds.
+0 of 1 'times' files finished.
+Computations Done (13.65s).
+Creating figures...
+1  
+Elapsed time is 24.798674 seconds.
+0 of 1 'times' files finished.
+Computations Done (110.64s).
+Creating figures...
+1  
+Elapsed time is 127.405740 seconds.
+0 of 1 'times' files finished.
+Computations Done (103.86s).
+Creating figures...
+1  
+Elapsed time is 115.111547 seconds.
+0 of 1 'times' files finished.
+Computations Done (116.14s).
+Creating figures...
+1  
+Elapsed time is 128.021269 seconds.
+0 of 1 'times' files finished.
+Computations Done (17.41s).
+Creating figures...
+1  
+Elapsed time is 28.632049 seconds.
+0 of 1 'times' files finished.
+Computations Done (114.46s).
+Creating figures...
+1  
+Elapsed time is 123.934656 seconds.
+0 of 1 'times' files finished.
+Computations Done (115.15s).
+Creating figures...
+1  
+Elapsed time is 132.207282 seconds.
+0 of 1 'times' files finished.
+Computations Done (104.82s).
+Creating figures...
+1  
+Elapsed time is 118.669316 seconds.
+0 of 1 'times' files finished.
+Computations Done (104.12s).
+Creating figures...
+1  
+Elapsed time is 116.867047 seconds.
+0 of 1 'times' files finished.
+Computations Done (102.90s).
+Creating figures...
+1  
+Elapsed time is 115.124381 seconds.
+0 of 1 'times' files finished.
+Computations Done (103.53s).
+Creating figures...
+1  
+Elapsed time is 116.171848 seconds.
+0 of 1 'times' files finished.
+Computations Done (107.13s).
+Creating figures...
+1  
+Elapsed time is 122.523819 seconds.
+0 of 1 'times' files finished.
+Computations Done (131.53s).
+Creating figures...
+1  
+Elapsed time is 149.542784 seconds.
+0 of 1 'times' files finished.
+Computations Done (104.13s).
+Creating figures...
+1  
+Elapsed time is 117.181963 seconds.
+0 of 1 'times' files finished.
+Computations Done (39.63s).
+Creating figures...
+1  
+Elapsed time is 55.920153 seconds.
+0 of 1 'times' files finished.
+Computations Done (75.08s).
+Creating figures...
+1  
+Elapsed time is 86.836985 seconds.
+0 of 1 'times' files finished.
+Computations Done (18.90s).
+Creating figures...
+1  
+Elapsed time is 27.739982 seconds.
+0 of 1 'times' files finished.
+Computations Done (103.63s).
+Creating figures...
+1  
+Elapsed time is 116.075294 seconds.
+0 of 1 'times' files finished.
+Computations Done (103.10s).
+Creating figures...
+1  
+Elapsed time is 120.874712 seconds.
+0 of 1 'times' files finished.
+Computations Done (70.91s).
+Creating figures...
+1  
+Elapsed time is 88.867114 seconds.
+0 of 1 'times' files finished.
+Computations Done (114.73s).
+Creating figures...
+1  
+Elapsed time is 129.902130 seconds.
+0 of 1 'times' files finished.
+Computations Done (103.66s).
+Creating figures...
+1  
+Elapsed time is 121.553879 seconds.
+0 of 1 'times' files finished.
+Computations Done (112.50s).
+Creating figures...
+1  
+Elapsed time is 128.798232 seconds.
+0 of 1 'times' files finished.
+Computations Done (118.77s).
+Creating figures...
+1  
+Elapsed time is 134.553422 seconds.
+0 of 1 'times' files finished.
+Computations Done (132.57s).
+Creating figures...
+1  
+Elapsed time is 150.142473 seconds.
+0 of 1 'times' files finished.
+Computations Done (127.01s).
+Creating figures...
+1  
+Elapsed time is 141.214755 seconds.
+0 of 1 'times' files finished.
+Computations Done (124.32s).
+Creating figures...
+1  
+Elapsed time is 139.611103 seconds.
+0 of 1 'times' files finished.
+Computations Done (141.27s).
+Creating figures...
+1  
+Elapsed time is 162.542939 seconds.
+0 of 1 'times' files finished.
+Computations Done (127.77s).
+Creating figures...
+1  
+Elapsed time is 150.513257 seconds.
+0 of 1 'times' files finished.
+Computations Done (124.74s).
+Creating figures...
+1  
+Elapsed time is 142.445282 seconds.
+0 of 1 'times' files finished.
+Computations Done (119.21s).
+Creating figures...
+1  
+Elapsed time is 134.051351 seconds.
+0 of 1 'times' files finished.
+Computations Done (108.99s).
+Creating figures...
+1  
+Elapsed time is 124.033393 seconds.
+0 of 1 'times' files finished.
+Computations Done (108.73s).
+Creating figures...
+1  
+Elapsed time is 122.837826 seconds.
+0 of 1 'times' files finished.
+Computations Done (128.23s).
+Creating figures...
+1  
+Elapsed time is 147.006964 seconds.
+0 of 1 'times' files finished.
+Computations Done (119.69s).
+Creating figures...
+1  
+Elapsed time is 135.034691 seconds.
+0 of 1 'times' files finished.
+Computations Done (118.66s).
+Creating figures...
+1  
+Elapsed time is 140.661232 seconds.
+0 of 1 'times' files finished.
+Computations Done (120.36s).
+Creating figures...
+1  
+Elapsed time is 135.233344 seconds.
+0 of 1 'times' files finished.
+Computations Done (134.02s).
+Creating figures...
+1  
+Elapsed time is 154.036525 seconds.
+0 of 1 'times' files finished.
+Computations Done (140.49s).
+Creating figures...
+1  
+Elapsed time is 165.909086 seconds.
+0 of 1 'times' files finished.
+Computations Done (126.34s).
+Creating figures...
+1  
+Elapsed time is 147.554001 seconds.
+0 of 1 'times' files finished.
+Computations Done (128.47s).
+Creating figures...
+1  
+Elapsed time is 143.596581 seconds.
+0 of 1 'times' files finished.
+Computations Done (118.62s).
+Creating figures...
+1  
+Elapsed time is 133.286157 seconds.
+0 of 1 'times' files finished.
+Computations Done (117.46s).
+Creating figures...
+1  
+Elapsed time is 131.880975 seconds.
+0 of 1 'times' files finished.
+Computations Done (113.50s).
+Creating figures...
+1  
+Elapsed time is 129.903515 seconds.
+0 of 1 'times' files finished.
+Computations Done (135.95s).
+Creating figures...
+1  
+Elapsed time is 152.909870 seconds.
+0 of 1 'times' files finished.
+Computations Done (137.43s).
+Creating figures...
+1  
+Elapsed time is 154.572854 seconds.
+0 of 1 'times' files finished.
+Computations Done (127.48s).
+Creating figures...
+1  
+Elapsed time is 140.959132 seconds.
+0 of 1 'times' files finished.
+Computations Done (113.63s).
+Creating figures...
+1  
+Elapsed time is 128.584459 seconds.
+0 of 1 'times' files finished.
+Computations Done (115.14s).
+Creating figures...
+1  
+Elapsed time is 128.011960 seconds.
+0 of 1 'times' files finished.
+Computations Done (120.00s).
+Creating figures...
+1  
+Elapsed time is 135.145054 seconds.
+0 of 1 'times' files finished.
+Computations Done (117.33s).
+Creating figures...
+1  
+Elapsed time is 132.539716 seconds.
+0 of 1 'times' files finished.
+Computations Done (119.16s).
+Creating figures...
+1  
+Elapsed time is 135.486992 seconds.
+0 of 1 'times' files finished.
+Computations Done (116.60s).
+Creating figures...
+1  
+Elapsed time is 132.474534 seconds.
+0 of 1 'times' files finished.
+Computations Done (121.52s).
+Creating figures...
+1  
+Elapsed time is 138.152932 seconds.
+0 of 1 'times' files finished.
+Computations Done (106.31s).
+Creating figures...
+1  
+Elapsed time is 121.034666 seconds.
+0 of 1 'times' files finished.
+Computations Done (112.42s).
+Creating figures...
+1  
+Elapsed time is 126.522342 seconds.
+0 of 1 'times' files finished.
+Computations Done (125.55s).
+Creating figures...
+1  
+Elapsed time is 145.697216 seconds.
+0 of 1 'times' files finished.
+Computations Done (108.42s).
+Creating figures...
+1  
+Elapsed time is 121.407273 seconds.
+0 of 1 'times' files finished.
+Computations Done (117.64s).
+Creating figures...
+1  
+Elapsed time is 130.430988 seconds.
+0 of 1 'times' files finished.
+Computations Done (110.37s).
+Creating figures...
+1  
+Elapsed time is 128.949163 seconds.
+0 of 1 'times' files finished.
+Computations Done (108.34s).
+Creating figures...
+1  
+Elapsed time is 121.662816 seconds.
+0 of 1 'times' files finished.
+Computations Done (114.58s).
+Creating figures...
+1  
+Elapsed time is 131.474346 seconds.
+0 of 1 'times' files finished.
+Computations Done (119.57s).
+Creating figures...
+1  
+Elapsed time is 135.824553 seconds.
+0 of 1 'times' files finished.
+Computations Done (110.21s).
+Creating figures...
+1  
+Elapsed time is 122.583113 seconds.
+0 of 1 'times' files finished.
+Computations Done (128.32s).
+Creating figures...
+1  
+Elapsed time is 142.552355 seconds.
+0 of 1 'times' files finished.
+Computations Done (128.92s).
+Creating figures...
+1  
+Elapsed time is 148.128716 seconds.
+0 of 1 'times' files finished.
+Computations Done (123.76s).
+Creating figures...
+1  
+Elapsed time is 136.741745 seconds.
+0 of 1 'times' files finished.
+Computations Done (153.18s).
+Creating figures...
+1  
+Elapsed time is 172.690542 seconds.
+0 of 1 'times' files finished.
+Computations Done (114.95s).
+Creating figures...
+1  
+Elapsed time is 126.976887 seconds.
+0 of 1 'times' files finished.
+Computations Done (104.09s).
+Creating figures...
+1  
+Elapsed time is 116.317435 seconds.
+0 of 1 'times' files finished.
+Computations Done (140.71s).
+Creating figures...
+1  
+Elapsed time is 166.636473 seconds.
+0 of 1 'times' files finished.
+Computations Done (108.02s).
+Creating figures...
+1  
+Elapsed time is 123.615161 seconds.
+0 of 1 'times' files finished.
+Computations Done (108.63s).
+Creating figures...
+1  
+Elapsed time is 122.151786 seconds.
+0 of 1 'times' files finished.
+Computations Done (104.04s).
+Creating figures...
+1  
+Elapsed time is 116.899784 seconds.
+0 of 1 'times' files finished.
+Computations Done (106.79s).
+Creating figures...
+1  
+Elapsed time is 119.980584 seconds.
+0 of 1 'times' files finished.
+Computations Done (109.03s).
+Creating figures...
+1  
+Elapsed time is 124.676456 seconds.
+0 of 1 'times' files finished.
+Computations Done (129.81s).
+Creating figures...
+1  
+Elapsed time is 148.151767 seconds.
+0 of 1 'times' files finished.
+Computations Done (126.11s).
+Creating figures...
+1  
+Elapsed time is 140.858042 seconds.
+0 of 1 'times' files finished.
+Computations Done (117.61s).
+Creating figures...
+1  
+Elapsed time is 129.651105 seconds.
+0 of 1 'times' files finished.
+Computations Done (104.22s).
+Creating figures...
+1  
+Elapsed time is 116.812864 seconds.
+0 of 1 'times' files finished.
+Computations Done (96.69s).
+Creating figures...
+1  
+Elapsed time is 107.341973 seconds.
+0 of 1 'times' files finished.
+Computations Done (137.94s).
+Creating figures...
+1  
+Elapsed time is 155.695629 seconds.
+0 of 1 'times' files finished.
+Computations Done (133.01s).
+Creating figures...
+1  
+Elapsed time is 148.722590 seconds.
+0 of 1 'times' files finished.
+Computations Done (126.82s).
+Creating figures...
+1  
+Elapsed time is 145.176139 seconds.
+0 of 1 'times' files finished.
+Computations Done (123.54s).
+Creating figures...
+1  
+Elapsed time is 140.705320 seconds.
+0 of 1 'times' files finished.
+Computations Done (127.37s).
+Creating figures...
+1  
+Elapsed time is 148.911534 seconds.

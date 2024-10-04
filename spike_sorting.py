@@ -26,8 +26,8 @@ def create_spikes_clusters(save_path, num_channel):
 
         # Diviser le fichier en temps de spikes et clusters associés
         spk_clus = ss[:, 0]
-        spk_clus = [x + channel * 100 for x in spk_clus]  # Ajoute le décalage du canal
-        spk_clus = [int(elt) for elt in spk_clus]
+        spk_clus = [[channel,x] for x in spk_clus]  # Ajoute le décalage du canal
+        #spk_clus = [int(elt) for elt in spk_clus]
         spk_times = ss[:, 1]
         
         # Ajouter les valeurs au tableau final

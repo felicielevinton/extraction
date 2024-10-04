@@ -56,7 +56,7 @@ def get_tonotopy(data, features, t_pre, t_post, bin_width, good_clusters, unique
     psth_bins = np.arange(-t_pre, t_post + bin_width, bin_width)
     
     n_clus = len(good_clusters)
-     
+    
 
     tones = np.array(tones)
     unique_tones_test = np.unique(tones)
@@ -156,8 +156,8 @@ def get_plot_coords(channel_number,n_rows, n_cols):
 
 
 
-def plot_heatmap_bandwidth(heatmaps,threshold, gc, k ,unique_tones, min_freq, max_freq, bin_width, psth_bins, t_pre,path, folder, condition):
-    """""
+def plot_heatmap_bandwidth(heatmaps, threshold, good_cluster, cluster_order, count_dict, k, unique_tones, min_freq, max_freq, bin_width, psth_bins, t_pre, path, folder, condition):
+    """
     Best function pour déterminer la bandwidth et plotter la heatmap et les contours de la bandwidth
     input : heatmaps(contenant plusieurs clusters), le threshold pour la detection du pic, good_clusters
         unique_tones (les fréquences jouées), min_freq, max_freq : les indices des fréquences qu'on exclut (pas assez de présentations)
@@ -165,126 +165,88 @@ def plot_heatmap_bandwidth(heatmaps,threshold, gc, k ,unique_tones, min_freq, ma
     output : save plot des heatmap avec la bandwidth entourée .png
             save tableau des heatmaps telles que plottée (avec les psth) .npy
             save tableau contenant les bandwidth de chaque cluster .npy
-            
     """
     
     # pour les plots:
-
-    #num_rows, num_columns = get_plot_geometry(gc)
-    
-    num_plots, num_rows, num_columns = get_better_plot_geometry(gc)
-    print(num_plots, num_rows, num_columns)
+    num_plots, num_rows, num_columns = get_better_plot_geometry(cluster_order, good_cluster)
+    print((num_plots, num_rows, num_columns))
 
     # Create a figure with subplots
-    #fig, axes = plt.subplots(4, 8, figsize=(16, 8))
     fig_width = 4 * num_columns  # Ajustez selon vos besoins
     fig_height = 4 * num_rows  # Ajustez selon vos besoins
 
-    # Ajustez la taille globale de la figure
     fig, axes = plt.subplots(num_rows, num_columns, figsize=(fig_width, fig_height))
     fig.suptitle(f'Heatmaps clusters {condition}', y=1.02)
     plt.subplots_adjust(wspace=0.4, hspace=0.4)
     plt.subplots_adjust() 
     
-     # Flatten the axis array if it's more than 1D
-    #if num_rows > 1 and num_columns > 1:
-        #axes = axes.flatten()
-    #
     bandwidth = []
     plotted_heatmap = []
     peaks = []
+    
+    sorted_k = k[np.lexsort((k[:, 1], k[:, 0]))]
+    unique_values, indices = np.unique(sorted_k[:, 0], return_inverse=True)
+    sorted_k[:, 0] = indices  # Les valeurs des channels ramenées à leur indice de ligne
+
     for cluster in range(num_plots):
-        if cluster < num_plots:
-            row, col = get_plot_coords(cluster,num_rows, num_columns)
-            #print(cluster)
+        row, col = int(sorted_k[cluster][0]), int(sorted_k[cluster][1])
+        cluster_key = tuple(k[cluster])
+
+        # Ajouter la condition pour ne plotter que si count_dict[cluster_key] > 10000
+        if count_dict[cluster_key] > 10000:
+            print(f"Plotting heatmap for cluster {cluster} with count {count_dict[cluster_key]}")
             heatmap_cluster = np.array(heatmaps[cluster])
             hm, peak = detect_peak(heatmaps, cluster)
-            #heatmap_min = np.min(heatmap_cluster)
-            #heatmap_max = np.max(abs(heatmap_cluster))
-            #abs_max = max(abs(heatmap_min), abs(heatmap_max))
-            #abs_max = np.max(abs(heatmap_cluster[min_freq:-max_freq]))
-            abs_max = np.max(abs(heatmap_cluster[3:-3]))*0.4
+            abs_max = np.max(abs(heatmap_cluster[3:-3])) * 0.4
             contours = get_contour(hm, threshold)
-            #j'essaye en prenant la absolute value de hm
-            #contours = get_contour(np.abs(hm), threshold)
-            
-        # Je retire la moyenne pre-stim ligne par ligne (fréquence par fréquence)
-            t_0 = int(t_pre/bin_width)
+
+            t_0 = int(t_pre / bin_width)
             prestim_hm = heatmap_cluster[:, :t_0]
             mean_freq = np.mean(prestim_hm, axis=1)
 
-            for i in range(heatmap_cluster.shape[0]):  # Parcours des lignes de A
+            for i in range(heatmap_cluster.shape[0]):
                 heatmap_cluster[i] -= mean_freq[i]
             
-            
             smoothed = smooth_2d(heatmap_cluster, 5)
-            
-            #je mets des zeros aux frequences trop hautes et trop basses où je n'ai pas
-            #assez de présentations
-            lowf = np.zeros((min_freq+1, len(smoothed[0])))
-            highf = np.zeros((max_freq+1, len(smoothed[0])))
-            
-            milieu = np.concatenate((lowf, smoothed[min_freq:-max_freq]))
 
-            # Concaténation à l'arrière
-            milieu = np.concatenate((milieu, highf))
+            vmin = -3 * np.std(smoothed)
+            vmax = 3 * np.std(smoothed)
 
-
-            # vmin = np.min(milieu)  # Valeur minimale dans ta matrice
-            # vmax = np.max(milieu)  # Valeur maximale dans ta matrice
-
-            vmin = -3 * np.std(milieu)  # Valeur minimale dans ta matrice
-            vmax = 3 * np.std(milieu)  # Valeur maximale dans ta matrice
-
-            norm = colors.TwoSlopeNorm(vmin=vmin, vcenter=0, vmax=vmax)  # Normalisation centrée sur 0
-            #img = axes[row, col].pcolormesh(milieu, cmap=create_centered_colormap(abs_max), vmin=-abs_max, vmax=abs_max)
-            #img = axes[row, col].pcolormesh(milieu, cmap='seismic', norm=norm)
-            img = axes[row, col].pcolormesh(milieu, cmap='seismic', norm=norm)
-
-            #axes[row, col].set_yticks(np.arange(len(unique_tones)), unique_tones)
+            norm = colors.TwoSlopeNorm(vmin=vmin, vcenter=0, vmax=vmax)
+            img = axes[row, col].pcolormesh(smoothed, cmap='seismic', norm=norm)
             axes[row, col].set_xlabel('Time')
-            #axes[row, col].set_ylabel('Frequency [Hz]')
-            axes[row, col].set_title(f'Cluster {k[cluster]}')
-            axes[row, col].axvline(x=t_0, color='black', linestyle='--') # to print a vertical line at the stim onset time
-        
+            axes[row, col].set_title(f'Cluster {k[cluster]} nbr {count_dict[cluster_key]}')
+            axes[row, col].axvline(x=t_0, color='black', linestyle='--')
 
-            #Je ne prends la réponse qu'entre 40 et 60ms
-            #max = 0
-            #min = len(unique_tones[min_freq:-max_freq])-2
-            max_length =  0    
-            x_c, y_c, minf, maxf = np.nan, np.nan, 0,0 # au cas où on trouve pas de contour
+            max_length = 0    
+            x_c, y_c, minf, maxf = np.nan, np.nan, 0, 0
+
             for contour in contours:
-                if ((contour[:, 1] > t_0-5).all() and (contour[:, 1] < t_0+10).all()):
-                    if len(contour[:, 0])>max_length:
+                if ((contour[:, 1] > t_0 - 5).all() and (contour[:, 1] < t_0 + 10).all()):
+                    if len(contour[:, 0]) > max_length:
                         max_length = len(contour[:, 0])
                         x_c = contour[:, 1]
                         y_c = contour[:, 0]
                         maxf = np.max(contour[:, 0])
                         minf = np.min(contour[:, 0])
-                        test = contour[:, 0]
-                        if maxf<len(unique_tones)-1:
-                            maxf+=1
-            #axes[row, col].plot(x_c, y_c, linewidth=2, color='green')
-            print(x_c, y_c)
-            #print(plotted_freq[int(min)], plotted_freq[int(max)])
-            # je mets np.nan dans bandwidth si je ne trouve pas de contour
-            if max_length==0 or maxf==0:
+                        if maxf < len(unique_tones) - 1:
+                            maxf += 1
+
+            if max_length == 0 or maxf == 0:
                 bandwidth.append([np.nan, np.nan])
                 peaks.append(np.nan)
-            else : 
-            
-            #je prends +1 dans le maxf
+            else:
                 bandwidth.append([unique_tones[int(minf)], unique_tones[int(maxf)]])
                 peaks.append(unique_tones[peak[0]])
-            plotted_heatmap.append(milieu)
-            #cbar_ax = fig.add_axes([ax.get_position().x1 + 0.01, ax.get_position().y0, 0.02, ax.get_position().height])
-            #fig.colorbar(img, cax=cbar_ax)
-        # Hide any unused subplots
-    # for ax in axes[num_plots:]:
-    #     ax.axis('off')
+
+            plotted_heatmap.append(smoothed)
+        else:
+            print(f"Skipping cluster {cluster} with count {count_dict[cluster_key]} (too small)")
+
     plt.tight_layout()  
-    plt.savefig(path+folder+f'/heatmap_{condition}.png') # save the figure of the heatmap
-    np.save(path+folder+f'/heatmap_bandwidth.npy', bandwidth) # save the values of the bandwidth
-    np.save(path+folder+f'/heatmap_plot_{condition}.npy',plotted_heatmap ) # save the values of the heatmap as it is plotted 
-    np.save(path+folder+f'/best_frequency_{condition}.npy', peaks)
-    return ('all izz well')
+    plt.savefig(path + folder + f'/heatmap_{condition}.png')  # save the figure of the heatmap
+    np.save(path + folder + f'/heatmap_bandwidth.npy', bandwidth)  # save the values of the bandwidth
+    np.save(path + folder + f'/heatmap_plot_{condition}.npy', plotted_heatmap)  # save the values of the heatmap as it is plotted 
+    np.save(path + folder + f'/best_frequency_{condition}.npy', peaks)
+
+    return 'all izz well'

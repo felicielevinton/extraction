@@ -13,17 +13,18 @@ psth_bins = np.arange(-t_pre, t_post + bin_width, bin_width)
 
 
 # path = 'Z:/eTheremin/OSCYPEK/OSCYPEK/OSCYPEK_20240710_SESSION_00/headstage_0'
-session = 'ALTAI_20240910_SESSION_00/' 
+session = 'ALTAI_20240710_SESSION_00/' 
 chemin  = 'Z:/eTheremin/ALTAI/' + session
 
-#num_channel = [3,6,17,5,23,16,14,31]
+#num_channel = [31, 30, 16, 14,  1, 23, 29,  5, 17, 27, 25,  8, 28, 26,3,  2,  6, 20]
 num_channel = np.load(chemin + 'headstage_0' + '/good_clusters.npy', allow_pickle = True)
-save_path = 'Y:/eTheremin/clara/' + session +'stdmin = 5/'
+print(num_channel)
+save_path = 'Y:/eTheremin/clara/' + session + 'std.min = 4 bis/'
 
-mock=False
-#session_type = get_session_type_final(path)
-#print(session_type)
-#session_type = 'Playback' #TrackingOnly ou PbOnly
+# mock=False
+# #session_type = get_session_type_final(path)
+# #print(session_type)
+# #session_type = 'Playback' #TrackingOnly ou PbOnly
 
 
 
