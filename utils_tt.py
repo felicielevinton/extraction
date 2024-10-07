@@ -567,10 +567,46 @@ def create_tt(path) :
     
 def create_tt_no_mock(path, mock=False): 
     # Fonction pour créer le tt.pkl dans le cas d'une session playback classique (avec les mock )
-    
+    #ne marche que pour Altaï --> pas les memes lignes de triggers avec Burrata notamment. 
     # get triggers
     triggers_tr, tones_total_tr = get_triggers(path+'headstage_0/', analog_line=0)
     triggers_pb, tones_total_pb = get_triggers(path+'headstage_0/', analog_line=1)
+        
+    condition_tr = np.zeros(len(triggers_tr))
+    condition_pb = np.ones(len(triggers_pb)) 
+            
+    trig_times = np.concatenate((triggers_tr, triggers_pb)) 
+    tones = np.concatenate((tones_total_tr, tones_total_pb))
+    condition = np.concatenate((condition_tr, condition_pb))
+            
+
+    print(len(tones))
+    print(len(trig_times))
+    
+    sorted_indices = np.argsort(trig_times[:len(tones)])
+    sorted_indices = sorted_indices[:-1]
+    sorted_triggers = trig_times[sorted_indices]
+    sorted_tones = tones[sorted_indices]
+    sorted_condition = condition[sorted_indices]
+    
+    
+    triggers_mck, mock_tones = [], []
+    # we have triggers now let's get the tones
+    json_path = find_json(path)
+    extracted_data = read_json_file(json_path)
+    tones, labels, mock_tones = concatenate_tones_and_labels(extracted_data, path+'headstage_0/tones', mock)
+    condition, block = convert_condition_block(tones, labels)
+    save_tt(tones, sorted_triggers, block, condition, triggers_mck, mock_tones, path+'headstage_0')
+
+
+
+def create_tt_no_burrata(path, mock=False): 
+    # Fonction pour créer le tt.pkl dans le cas d'une session playback classique (avec les mock )
+    # pour Burrata
+    # get triggers
+    triggers_tr, tones_total_tr = get_triggers(path+'headstage_0/', analog_line=1)
+    triggers_pb, tones_total_pb = get_triggers(path+'headstage_0/', analog_line=0)
+    triggers_mock, tones_total_mock = get_triggers(path+'headstage_0/', analog_line=0)
         
     condition_tr = np.zeros(len(triggers_tr))
     condition_pb = np.ones(len(triggers_pb)) 
@@ -846,7 +882,8 @@ def create_data_features_mock(path, bin_width, fs, mock=True):
         
 
 
-def create_data_features_ss(path, bin_width, fs, mock=False):
+def create_data_features_ss(path, clus, bin_width, fs, mock=False):
+    # clus : numero du cluster spike sorté
 
     # version si spike_sorting c'est une version test
     
@@ -864,8 +901,8 @@ def create_data_features_ss(path, bin_width, fs, mock=False):
     #extraire recording_length OK ca marche
 
  
-    spk_clusters = np.load(path+'/ss_spike_clusters.npy', allow_pickle=True)
-    spk_times = np.load(path+'/ss_spike_times.npy', allow_pickle=True)
+    spk_clusters = np.load(path+'ss_C' + str(clus) + '_spike_clusters.npy', allow_pickle=True)
+    spk_times = np.load(path+'ss_C' + str(clus) + '_spike_times.npy', allow_pickle=True)
 
     clusters = {}
     for value, cluster in zip(spk_times, spk_clusters):
@@ -876,10 +913,12 @@ def create_data_features_ss(path, bin_width, fs, mock=False):
     ##NEURO
     t_spk, c_spk = [], [] #spike times, cluster
     #for cluster in range(spike.get_n_clusters()):
-    n_clus = np.max(spk_clusters)
-    for cluster in range(n_clus+1):
+    #n_clus = len(np.unique(spk_clusters))
+    n_0 = 0
+    for cluster in np.unique(spk_clusters):
         t_spk.append(clusters[cluster]) #spikes times
-        c_spk.append(np.full_like(t_spk[cluster], cluster))
+        c_spk.append(np.full_like(t_spk[n_0], cluster))
+        n_0 = n_0 +1
     t_spk = np.hstack(t_spk)
     c_spk = np.hstack(c_spk)
 
@@ -909,11 +948,11 @@ def create_data_features_ss(path, bin_width, fs, mock=False):
 
     print(histograms_per_cluster)
     data = [histograms_per_cluster[key][0] for key in histograms_per_cluster]
-    np.save(path+f'/data_{bin_width}.npy', data)
+    np.save(path+f'data_ss_channel_{clus}_{bin_width}.npy', data)
 
 
     #### TRIGGERS
-    tt_path = path+'/tt.pkl'
+    tt_path = path+'tt.pkl'
     with open(tt_path, 'rb') as file:
         tt = pickle.load(file)
         
@@ -923,6 +962,7 @@ def create_data_features_ss(path, bin_width, fs, mock=False):
     #sorted_condition = tt['condition'][sorted_indices]
     
     t_stim = np.array(tt['triggers'])/fs
+    print(tt.keys)
     f_stim = tt['tones']
     type_stim = tt['condition']
     block = [int(block[-1]) for block in tt['block']]

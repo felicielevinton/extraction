@@ -2,6 +2,7 @@ from functions_get_data import *
 import numpy as np
 from utils_extraction import get_session_type_final
 from utils_tt import *
+from spike_sorting import *
 
 # ARGUMENTS
 sr = 30e3
@@ -23,7 +24,7 @@ mock=False
 
  
 #2. Créer le data.npy et features.npy
-create_data_features_mock(path+'headstage_0/', bin_width, sr, mock=False)
+#create_data_features_mock(path+'headstage_0/', bin_width, sr, mock=False)
 
 # version test de spike_sorting
 
