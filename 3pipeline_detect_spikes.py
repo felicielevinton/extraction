@@ -19,47 +19,36 @@ import matplotlib
 import pickle
 matplotlib.use('Agg')
 sr=30e3
+fs = sr
 # adresse pour OSCYPEK : /mnt/working2/felicie/data2/eTheremin/OSCYPEK/OSCYPEK
 
-root = '/auto/data2/eTheremin/OSCYPEK/OSCYPEK/OSCYPEK_20240709_SESSION_01/'
+root = '/auto/data2/eTheremin/MUROLS/MUROLS_20230301/MUROLS_20230301_SESSION_00/'
 path = root+'headstage_0/' 
-#path=root
-#neural_data = np.load(root +'/neural_data.npy')
-#pour Burrata : s
+
 neural_data = np.load(path +'/neural_data.npy')
 sig = neural_data
 
 
-def get_fma_probe():
-    """ Implements the FMA probe using Probeinterface.
-    """
-    ### The following distances are in mm:
-    inter_hole_spacing = 0.4  # along one row
-    inter_row_spacing = np.sqrt(0.4**2-0.2**2)  # between row/mnt/working2/felicie/Python_theremin/Analyse/Analyse/Experiment/BURRATA/BURRATA_20240419_SESSION_01/headstage_1/psth_figure_spikeinterface.png
-
-    # We need to remove the ground from these positions:
-    mask = np.zeros((16, 2), dtype=bool)
-    mask[[0, 15], [0, 1]] = True
-    positions = positions[np.logical_not(mask.reshape(-1))]
-
-    probe = Probe(ndim=2, si_units='um')
-    probe.set_contacts(positions=positions,
-                       shapes='circle', shape_params={'radius': 100})
-    polygon = [(0, 0), (0, 16000), (800, 16000), (800, 0)]
-
-    probe.set_device_channel_indices(mapping)
-
-    return probe
-
-
 n_cpus = os.cpu_count()
+
+#s'il y a deja un gc on va le lire pour retirer les canaux morts et parfaire la CMR
+if os.path.isfile(path + 'good_clusters.npy'):
+    gc = np.load(path + 'good_clusters.npy')
+    # ici je regroupe tous les numéros de canaux qui ne sont pas dans good clusters.
+    channels_to_remove = [num for num in range(32) if num not in gc]
+    print(channels_to_remove)
+else : 
+    gc = np.arange(32)
+    channels_to_remove = None
 
 full_raw_rec = se.NumpyRecording(traces_list=np.transpose(sig), sampling_frequency=sr)
 # Convertir le type de données avant d'appliquer le filtre
 full_raw_rec = full_raw_rec.astype('float32')  # Vous pouvez aussi utiliser 'int16'
 
+print("Canaux avant suppression:", full_raw_rec.get_channel_ids())
 #raw_rec = full_raw_rec
-raw_rec = full_raw_rec.remove_channels(["CH0", "CH4", "CH7", "CH26", "CH19","CH12", "CH22", "CH30"]) #,"CH12", "CH13","CH14", "CH15", "CH16", "CH17", "CH18", "CH19", "CH21", "CH22", "CH23","CH31"  ])
+raw_rec = full_raw_rec.remove_channels(channels_to_remove) #,"CH12", "CH13","CH14", "CH15", "CH16", "CH17", "CH18", "CH19", "CH21", "CH22", "CH23","CH31"  ])
+print("Canaux après suppression:", raw_rec.get_channel_ids())
 recording_cmr = si.common_reference(raw_rec, reference='global', operator='median')
 recording_f = si.bandpass_filter(recording_cmr, freq_min=300, freq_max=3000)
 #np.save(path+'/recording_f.npy', recording_f.get_traces())
@@ -72,7 +61,7 @@ peaks = detect_peaks(
         method='by_channel',
         gather_mode="memory",
         peak_sign='neg',#neg
-        detect_threshold=3, #2,   thresh = 3.32 for burrata # 3.2 sinon c'est bien
+        detect_threshold= 3.5,  # thresh = 3.32 for burrata # 3 pour ALTAI
         exclude_sweep_ms=1, #avant c'etait 0.1 je teste à 1
         noise_levels=None,
         random_chunk_kwargs={},
@@ -134,7 +123,6 @@ def compute_psth(spike_times, stimulus_times, bin_size, window):
     #psth=hist
     return psth, bin_edges
 
-gc = np.arange(0,32)
 num_plots, num_rows, num_columns = get_better_plot_geometry(gc)
 
 
@@ -155,3 +143,31 @@ for cluster in range(num_plots):
         axes[row, col].set_title(f'Cluster {cluster}')
 fig.tight_layout()
 fig.savefig(path+'psth_figure_spikeinterface.png') 
+
+
+
+
+
+
+# ca sert à rien mais au cas où
+
+def get_fma_probe():
+    """ Implements the FMA probe using Probeinterface.
+    """
+    ### The following distances are in mm:
+    inter_hole_spacing = 0.4  # along one row
+    inter_row_spacing = np.sqrt(0.4**2-0.2**2)  # between row/mnt/working2/felicie/Python_theremin/Analyse/Analyse/Experiment/BURRATA/BURRATA_20240419_SESSION_01/headstage_1/psth_figure_spikeinterface.png
+
+    # We need to remove the ground from these positions:
+    mask = np.zeros((16, 2), dtype=bool)
+    mask[[0, 15], [0, 1]] = True
+    positions = positions[np.logical_not(mask.reshape(-1))]
+
+    probe = Probe(ndim=2, si_units='um')
+    probe.set_contacts(positions=positions,
+                       shapes='circle', shape_params={'radius': 100})
+    polygon = [(0, 0), (0, 16000), (800, 16000), (800, 0)]
+
+    probe.set_device_channel_indices(mapping)
+
+    return probe

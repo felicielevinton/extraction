@@ -90,7 +90,7 @@ def check_responsiveness(triggers, spikes, path, clusters=None, tag=None):
 
 
 #### ici ca commence 
-path = '/auto/data2/eTheremin/ALTAI/ALTAI_20240710_SESSION_00/headstage_0/'
+path = '/auto/data2/eTheremin/MUROLS/MUROLS_20230224/MUROLS_20230224_SESSION_00/headstage_0/'
 
 
 
@@ -125,7 +125,7 @@ print('all izz well')
 
 
 #### ici ca commence 
-path = '/auto/data2/eTheremin/ALTAI/ALTAI_20240902_SESSION_00/headstage_0/'
+path = '/auto/data2/eTheremin/MUROLS/MUROLS_20230220/MUROLS_20230220_SESSION_00/headstage_0/'
 
 
 

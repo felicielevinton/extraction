@@ -24,7 +24,7 @@ n_headstages = 1 # nombre de headstages utilisés pendant la manip
 #Fichier python pour pouvoir utiliser byobu pour faire tourner l'extraction en arrière plan 
 
 #pour oscypek : /mnt/working2/felicie/data2/eTheremin/OSCYPEK/OSCYPEK
-path = '/auto/data2/eTheremin/ALTAI/ALTAI_20240824_SESSION_00/'
+path = '/auto/data2/eTheremin/ALTAI/ALTAI_20240718_SESSION_00/'
 
 extract_from_rhd(path, sampling_rate=sr, n_headstages=n_headstages, channels_to_remove=None)
 

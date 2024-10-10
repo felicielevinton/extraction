@@ -583,7 +583,8 @@ def create_tt_no_mock(path, mock=False):
     print(len(tones))
     print(len(trig_times))
     
-    sorted_indices = np.argsort(trig_times[:len(tones)])
+    #sorted_indices = np.argsort(trig_times[:len(tones)])
+    sorted_indices = np.argsort(trig_times)
     sorted_indices = sorted_indices[:-1]
     sorted_triggers = trig_times[sorted_indices]
     sorted_tones = tones[sorted_indices]
@@ -743,7 +744,8 @@ def create_data_features_mock(path, bin_width, fs, mock=True):
     t_stim = np.array(tt['triggers'])/fs
     f_stim = tt['tones']
     type_stim = tt['condition']
-    block = [int(block[-1]) for block in tt['block']]
+    #block = [int(block[-1]) for block in tt['block']]
+    block = [int(block.split('_0')[1]) for block in tt['block']]
     if mock:
         t_mock = np.array(tt['mock_triggers'])/fs
         f_mock = tt['mock_tones'] 
