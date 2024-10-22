@@ -156,7 +156,7 @@ def get_plot_coords(channel_number,n_rows, n_cols):
 
 
 
-def plot_heatmap_bandwidth(heatmaps, threshold, good_cluster, cluster_order, count_dict, k, unique_tones, min_freq, max_freq, bin_width, psth_bins, t_pre, path, folder, condition):
+def plot_heatmap_bandwidth(heatmaps, threshold, good_cluster, cluster_order, count_dict, k, nbr_spikes_min,unique_tones, min_freq, max_freq, bin_width, psth_bins, t_pre, path, folder, condition):
     """
     Best function pour déterminer la bandwidth et plotter la heatmap et les contours de la bandwidth
     input : heatmaps(contenant plusieurs clusters), le threshold pour la detection du pic, good_clusters
@@ -193,7 +193,7 @@ def plot_heatmap_bandwidth(heatmaps, threshold, good_cluster, cluster_order, cou
         cluster_key = tuple(k[cluster])
 
         # Ajouter la condition pour ne plotter que si count_dict[cluster_key] > 10000
-        if count_dict[cluster_key] > 10000:
+        if count_dict[cluster_key] > nbr_spikes_min:
             print(f"Plotting heatmap for cluster {cluster} with count {count_dict[cluster_key]}")
             heatmap_cluster = np.array(heatmaps[cluster])
             hm, peak = detect_peak(heatmaps, cluster)

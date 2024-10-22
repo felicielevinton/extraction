@@ -11,12 +11,13 @@ t_post = 0.50#0.300
 bin_width = 0.005
 psth_bins = np.arange(-t_pre, t_post + bin_width, bin_width)
 
-sessions = ['ALTAI_20240710_SESSION_00']
+#sessions = ['ALTAI_20240710_SESSION_00']
+sessions = ['MUROLS_20230218_SESSION_01']
 
 for session in sessions:
 
     # path = 'Z:/eTheremin/OSCYPEK/OSCYPEK/OSCYPEK_20240710_SESSION_00/headstage_0' 
-    chemin  = 'Z:/eTheremin/ALTAI/' + session + '/'
+    chemin  = 'Z:/eTheremin/MUROLS/MUROLS_20230218/' + session + '/' 
 
     #num_channel = [31, 30, 16, 14,  1, 23, 29,  5, 17, 27, 25,  8, 28, 26,3,  2,  6, 20]
     if os.path.exists(chemin + 'headstage_0' + '/good_clusters.npy'):

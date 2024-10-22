@@ -2,7 +2,7 @@ import os
 import re
 
 # Spécifiez le chemin du répertoire où se trouvent vos fichiers
-directory = 'Y:/eTheremin/clara/ALTAI_20240722_SESSION_01'
+directory = 'Y:/eTheremin/clara/ALTAI_20240722_SESSION_02'
 
 # Expression régulière pour extraire 'C<number>.mat'
 pattern = re.compile(r'C\d+\.mat')
