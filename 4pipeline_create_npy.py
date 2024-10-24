@@ -8,11 +8,11 @@ from spike_sorting import *
 sr = 30e3
 t_pre = 0.2#0.2
 t_post = 0.50#0.300
-bin_width = 0.02
+bin_width = 0.05
 psth_bins = np.arange(-t_pre, t_post + bin_width, bin_width)  
 
 
-session = 'ALTAI_20240724_SESSION_01'
+session = 'ALTAI_20240724_SESSION_02'
 path = '/Volumes/data2/eTheremin/ALTAI/'+ session + '/'
 #path = '/auto/data2/eTheremin/MUROLS/MUROLS_20230218/MUROLS_20230218_SESSION_01/'
 mock=False
