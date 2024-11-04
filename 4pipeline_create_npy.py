@@ -8,14 +8,14 @@ from spike_sorting import *
 sr = 30e3
 t_pre = 0.2#0.2
 t_post = 0.50#0.300
-bin_width = 0.05
+bin_width = 0.005
 psth_bins = np.arange(-t_pre, t_post + bin_width, bin_width)  
 
 
-session = 'ALTAI_20240724_SESSION_02'
-path = '/Volumes/data2/eTheremin/ALTAI/'+ session + '/'
-#path = '/auto/data2/eTheremin/MUROLS/MUROLS_20230218/MUROLS_20230218_SESSION_01/'
-mock=False
+#session = 'MMELOIK_20241029_SESSION_00'
+#path = '/Volumes/data6/eTheremin/MMELOIK/'+ session + '/'
+path = '/Volumes/data2/eTheremin/ALTAI/ALTAI_20240806_SESSION_00/'
+mock=True
 #session_type = get_session_type_final(path)
 #print(session_type)
 #session_type = 'Playback' #TrackingOnly ou PbOnly

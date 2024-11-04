@@ -484,7 +484,7 @@ def save_tt(tones, triggers,block, condition, mock_triggers, mock_tones, path):
     try:
         mock_tones = np.concatenate([element for sous_tableau in mock_tones for element in sous_tableau])
     except:
-        mock_tones = np.array([])
+        mock_tones = mock_tones
     
     tt = {
         'tones': tones,
@@ -561,7 +561,7 @@ def create_tt(path) :
     extracted_data = read_json_file(json_path)
     tones, labels, mock_tones = concatenate_tones_and_labels(extracted_data, path+'headstage_0/tones')
     condition, block = convert_condition_block(tones, labels)
-    save_tt(tones, sorted_triggers, block, condition, triggers_mck, mock_tones, path+'headstage_0')
+    save_tt(tones, sorted_triggers, block, condition, triggers_mck, tones_total_mck, path+'headstage_0')
     
      
     
