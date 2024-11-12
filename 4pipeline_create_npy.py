@@ -6,13 +6,15 @@ from spike_sorting import *
 
 # ARGUMENTS
 sr = 30e3
-t_pre = 0.2#0.2
+t_pre = 0.5#0.2
 t_post = 0.50#0.300
 bin_width = 0.005
 psth_bins = np.arange(-t_pre, t_post + bin_width, bin_width)  
 
-path = '/auto/data2/eTheremin/MUROLS/MUROLS_20230218/MUROLS_20230218_SESSION_01/'
-mock=False
+path = '/auto/data2/eTheremin/ALTAI/ALTAI_20240806_SESSION_00/'
+#session = '/MMELOIK_20241107_SESSION_00'
+#path = '/auto/data6/eTheremin/MMELOIK/'+ session + '/'
+mock=True
 #session_type = get_session_type_final(path)
 #print(session_type)
 #session_type = 'Playback' #TrackingOnly ou PbOnly
@@ -24,8 +26,8 @@ mock=False
 
  
 #2. Créer le data.npy et features.npy
-create_data_features_mock(path+'headstage_0/', bin_width, sr, mock=mock)
-
+#create_data_features_mock(path+'headstage_0', bin_width, sr, mock=mock)
+create_data_features_new_version(path+'headstage_0', bin_width, sr, mock=mock)
 # version test de spike_sorting
 
 #create_data_features_ss(path+'headstage_0/', bin_width, fs, mock=False)

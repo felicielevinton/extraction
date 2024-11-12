@@ -125,7 +125,7 @@ print('all izz well')
 
 
 #### ici ca commence 
-path = '/auto/data2/eTheremin/MUROLS/MUROLS_20230220/MUROLS_20230220_SESSION_00/headstage_0/'
+path = '/auto/data6/eTheremin/OSCYPEK/OSCYPEK/OSCYPEK_20240718_SESSION_00/headstage_0/'
 
 
 

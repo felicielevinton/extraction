@@ -10,16 +10,20 @@ t_post = 0.50#0.300
 bin_width = 0.005
 psth_bins = np.arange(-t_pre, t_post + bin_width, bin_width)
 
-path = '/auto/data2/eTheremin/ALTAI/ALTAI_20240722_SESSION_04/'
+#path = '/auto/data2/eTheremin/ALTAI/ALTAI_20240726_SESSION_01/'
+path = '/auto/data6/eTheremin/MMELOIK/MMELOIK_20241107_SESSION_00/'
 #session_type = get_session_type_final(path)
-session_type = 'TrackingOnly' #TrackingOnly ou PbOnly ou Playback MappingChange
+session_type = 'Tonotopy' #TrackingOnly ou PbOnly ou Playback MappingChange
 
 
 
 #create_tones_triggers_and_condition_V3(path, session_type)
 if session_type == 'TrackingOnly' or session_type == 'PbOnly' or session_type == 'Playback':
     create_tt_no_mock(path, mock=False) # peut etre ici que ca va beuguer
+    #create_tt(path)
 elif session_type =='MappingChange':
     create_tt_mc(path)
+elif session_type =='Tonotopy':
+    create_tt_tono(path)
 
 print(f'tt.pkl created,  for {path}')
