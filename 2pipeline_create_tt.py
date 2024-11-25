@@ -11,8 +11,8 @@ bin_width = 0.005
 psth_bins = np.arange(-t_pre, t_post + bin_width, bin_width)
 
 #path = '/auto/data2/eTheremin/ALTAI/ALTAI_20240822_SESSION_00/'
-session = 'ALTAI_20240809_SESSION_00'
-path = '/Volumes/data2/eTheremin/ALTAI/'+ session + '/'
+session = '/MUROLS_20230218/MUROLS_20230218_SESSION_01'
+path = '/Volumes/data2/eTheremin/MUROLS/'+ session + '/'
 #session_type = get_session_type_final(path)
 session_type = 'Playback' #TrackingOnly ou PbOnly ou Playback MappingChange
 

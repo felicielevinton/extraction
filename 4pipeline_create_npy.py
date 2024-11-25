@@ -14,7 +14,9 @@ psth_bins = np.arange(-t_pre, t_post + bin_width, bin_width)
 
 #session = 'MMELOIK_20241029_SESSION_00'
 #path = '/Volumes/data6/eTheremin/MMELOIK/'+ session + '/'
-path = '/Volumes/data2/eTheremin/ALTAI/ALTAI_20240806_SESSION_00/'
+path = '/Volumes/data2/eTheremin/ALTAI/ALTAI_20240822_SESSION_00/'
+#session = '/MUROLS_20230218/MUROLS_20230218_SESSION_01'
+#path = '/Volumes/data2/eTheremin/MUROLS/'+ session + '/'
 mock=True
 #session_type = get_session_type_final(path)
 #print(session_type)

@@ -90,7 +90,7 @@ def check_responsiveness(triggers, spikes, path, clusters=None, tag=None):
 
 
 #### ici ca commence 
-path = '/Volumes/data6/eTheremin/MMELOIK/MMELOIK_20241025_1/MMELOIK_20241025_SESSION_00/headstage_0/'
+path = '/Volumes/data2/eTheremin/MUROLS/MUROLS_20230221/MUROLS_20230221_SESSION_00/headstage_0/'
 
 
 
