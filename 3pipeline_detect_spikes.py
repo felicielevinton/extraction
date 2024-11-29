@@ -22,8 +22,7 @@ sr=30e3
 fs = sr
 # adresse pour OSCYPEK : /mnt/working2/felicie/data2/eTheremin/OSCYPEK/OSCYPEK
 
-root = "/auto/data6/eTheremin/MMELOIK/MMELOIK_20241107_SESSION_00/"
-#root = '/auto/data6/eTheremin/MMELOIK/MMELOIK_20241029_SESSION_00/'
+root = '/auto/data2/eTheremin/MUROLS/MUROLS_20230301/MUROLS_20230301_SESSION_00/'
 path = root+'headstage_0/' 
 
 neural_data = np.load(path +'/neural_data.npy')
