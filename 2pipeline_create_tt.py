@@ -11,13 +11,13 @@ bin_width = 0.005
 psth_bins = np.arange(-t_pre, t_post + bin_width, bin_width)
 
 #path = '/auto/data2/eTheremin/ALTAI/ALTAI_20240726_SESSION_01/'
-path = '/auto/data6/eTheremin/MMELOIK/MMELOIK_20241107_SESSION_00/'
+path = '/auto/data6/eTheremin/NAPOLEON/NAPOLEON_20241128_SESSION_01/'
 #path = '/auto/data2/eTheremin/ALTAI/ALTAI_20240822_SESSION_00/'
-session = 'ALTAI_20240809_SESSION_00'
-path = '/Volumes/data2/eTheremin/ALTAI/'+ session + '/'
+#session = 'ALTAI_20240809_SESSION_00'
+#path = '/Volumes/data2/eTheremin/ALTAI/'+ session + '/'
 #session_type = get_session_type_final(path)
+#session_type = 'Tonotopy' #TrackingOnly ou PbOnly ou Playback MappingChange
 session_type = 'Tonotopy' #TrackingOnly ou PbOnly ou Playback MappingChange
-session_type = 'Playback' #TrackingOnly ou PbOnly ou Playback MappingChange
 
 
 
@@ -28,6 +28,6 @@ if session_type == 'TrackingOnly' or session_type == 'PbOnly' or session_type ==
 elif session_type =='MappingChange':
     create_tt_mc(path)
 elif session_type =='Tonotopy':
-    create_tt_tono(path)
+    create_tt_tono(path, 0)
 
 print(f'tt.pkl created,  for {path}')

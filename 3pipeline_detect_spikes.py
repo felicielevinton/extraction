@@ -22,7 +22,7 @@ sr=30e3
 fs = sr
 # adresse pour OSCYPEK : /mnt/working2/felicie/data2/eTheremin/OSCYPEK/OSCYPEK
 
-root = '/auto/data2/eTheremin/MUROLS/MUROLS_20230301/MUROLS_20230301_SESSION_00/'
+root = '/auto/data6/eTheremin/NAPOLEON/NAPOLEON_20241128_SESSION_01/'
 path = root+'headstage_0/' 
 
 neural_data = np.load(path +'/neural_data.npy')
@@ -61,7 +61,7 @@ peaks = detect_peaks(
         method='by_channel',
         gather_mode="memory",
         peak_sign='neg',#neg
-        detect_threshold= 2.7,#3.5,  # thresh = 3.32 for burrata # 3 pour ALTAI 4 pour oscypeck
+        detect_threshold= 3.5,#3.5,  # thresh = 3.32 for burrata # 3 pour ALTAI 4 pour oscypeck
         exclude_sweep_ms=1, #avant c'etait 0.1 je teste à 1
         noise_levels=None,
         random_chunk_kwargs={},

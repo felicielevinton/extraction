@@ -14,8 +14,8 @@ psth_bins = np.arange(-t_pre, t_post + bin_width, bin_width)
 
 #session = 'MMELOIK_20241029_SESSION_00'
 #path = '/Volumes/data6/eTheremin/MMELOIK/'+ session + '/'
-path = '/Volumes/data2/eTheremin/ALTAI/ALTAI_20240806_SESSION_00/'
-mock=True
+path = '/auto/data6/eTheremin/NAPOLEON/NAPOLEON_20241128_SESSION_00/'
+mock=False
 #session_type = get_session_type_final(path)
 #print(session_type)
 #session_type = 'Playback' #TrackingOnly ou PbOnly
@@ -28,7 +28,7 @@ mock=True
  
 #2. Créer le data.npy et features.npy
 #create_data_features_mock(path+'headstage_0', bin_width, sr, mock=mock)
-create_data_features_new_version(path+'headstage_0', bin_width, sr, mock=mock)
+create_data_features_new_version(path+'headstage_0/', bin_width, sr, mock=mock)
 # version test de spike_sorting
 
 #create_data_features_ss(path+'headstage_0/', bin_width, fs, mock=False)

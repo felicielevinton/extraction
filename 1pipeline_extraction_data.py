@@ -20,11 +20,11 @@ sr = 30e3
 #bin_width = 0.005
 #bin_width = 0.02
 #psth_bins = np.arange(-t_pre, t_post + bin_width, bin_width)
-n_headstages = 1 # nombre de headstages utilisés pendant la manip
+n_headstages = 2 # nombre de headstages utilisés pendant la manip
 #Fichier python pour pouvoir utiliser byobu pour faire tourner l'extraction en arrière plan 
 
 #pour oscypek : /mnt/working2/felicie/data2/eTheremin/OSCYPEK/OSCYPEK
-path = '/auto/data6/eTheremin/MMELOIK/MMELOIK_20241107_SESSION_00/'
+path = '/auto/data6/eTheremin/MMELOIK/MMELOIK_20241129_SESSION_00/'
 
 extract_from_rhd(path, sampling_rate=sr, n_headstages=n_headstages, channels_to_remove=None)
 

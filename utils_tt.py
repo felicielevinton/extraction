@@ -576,6 +576,31 @@ def create_tt(path) :
     condition, block = convert_condition_block(tones, labels)
     save_tt(tones, sorted_triggers, block, condition, triggers_mck, tones_total_mck, path+'headstage_0')
     
+
+
+
+def create_tt_playback_only(path, n_headstage) : 
+    # Fonction pour créer le tt.pkl dans le cas d'une session playback classique (avec les mock )
+    
+    # get triggers
+    triggers_pb, tones_total_pb = get_triggers(path+f'headstage_{n_headstage}/', analog_line=0)
+        
+    condition_pb = np.ones(len(triggers_pb)) 
+            
+    trig_times =  triggers_pb
+    tones = tones_total_pb
+    condition = condition_pb
+    block = np.full(len(condition), 'Block_000')
+
+    print(len(tones))
+    print(len(trig_times))
+    
+    
+    triggers_mck, mock_tones = [], []
+    # we have triggers now let's get the tones
+
+    save_tt(tones, triggers_pb, block, condition, triggers_mck, mock_tones, path+f'headstage_{n_headstage}/')
+    
      
     
 def create_tt_no_mock(path, mock=False): 
@@ -614,12 +639,12 @@ def create_tt_no_mock(path, mock=False):
 
 
 
-def create_tt_tono(path, mock=False): 
+def create_tt_tono(path, n_headstage, mock=False): 
     # pour les sessions de tonotopies
     # Fonction pour créer le tt.pkl dans le cas d'une session playback classique (avec les mock )
     #ne marche que pour Altaï --> pas les memes lignes de triggers avec Burrata notamment. 
     # get triggers
-    triggers_tr, tones_total_tr = get_triggers(path+'headstage_0/', analog_line=0)
+    triggers_tr, tones_total_tr = get_triggers(path+f'headstage_{n_headstage}/', analog_line=0)
 
         
     condition_tr = np.zeros(len(triggers_tr))
@@ -647,7 +672,7 @@ def create_tt_tono(path, mock=False):
     #tones, labels, mock_tones = concatenate_tones_and_labels(extracted_data, path+'headstage_0/tones', mock)
     #condition, block = convert_condition_block(tones, labels)
     block = np.full(len(condition), 'Block_000')
-    save_tt(tones, sorted_triggers, block, condition, triggers_mck, mock_tones, path+'headstage_0')
+    save_tt(tones, sorted_triggers, block, condition, triggers_mck, mock_tones, path+f'/headstage_{n_headstage}')
 
 
 
