@@ -38,13 +38,14 @@ min_freq=1 #3 for A1
 threshold = 3 #3.2 #threshold for contour detection 3.2 is good
 
 print(bin_width)
-path = '/auto/data2/eTheremin/ALTAI/ALTAI_20240809_SESSION_00/headstage_0'
+path = '/Volumes/data2/eTheremin/ALTAI/ALTAI_20240822_SESSION_00/headstage_0'
 
 data = np.load(path+f'/data_{bin_width}.npy', allow_pickle=True)
 features = np.load(path+f'/features_{bin_width}.npy', allow_pickle=True)
 
 # mettre une condition si good_clusters.npy n'existe pas alors gc = 32
-gc = np.arange(32)
+#gc = np.arange(32)
+gc = np.load(path+'/good_clusters.npy', allow_pickle=True)
 
 #récupérer les tones joués
 tones = get_played_frequency(features, t_pre, t_post, bin_width, 'playback')
