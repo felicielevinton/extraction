@@ -90,7 +90,7 @@ def check_responsiveness(triggers, spikes, path, clusters=None, tag=None):
 
 
 #### ici ca commence 
-path = '/auto/data6/eTheremin/NAPOLEON/NAPOLEON_20241128_SESSION_01/headstage_0/'
+path = '/auto/data6/eTheremin/MMELOIK/MMELOIK_20241210_SESSION_00/headstage_1/' #relance juste
 
 
 
